@@ -6,7 +6,7 @@ subtitle: <a href='https://en.wikipedia.org/wiki/Know_thyself'>γνῶθι σε�
 
 profile:
   align: right
-  image: prof_pic.gif
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <a href="mailto: stingomichele@gmail.com">stingomichele@gmail.com</a>
