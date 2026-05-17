@@ -6,14 +6,11 @@ subtitle: <a href='https://en.wikipedia.org/wiki/Know_thyself'>γνῶθι σε�
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.gif
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href="mailto: [EMAIL_ADDRESS]">[EMAIL_ADDRESS]</a>
-    <a href="https://orcid.org/0000-0002-0227-6129">https://orcid.org/0000-0002-0227-6129</a>
-    <a href="https://www.linkedin.com/in/michele-stingo-58a7b7134/">https://www.linkedin.com/in/michele-stingo-58a7b7134/</a>
-    <a href="https://github.com/6MicheleStingo9">https://github.com/6MicheleStingo9</a>
-    <a href="https://scholar.google.com/citations?user=6H5eP7cAAAAJ&hl=it">https://scholar.google.com/citations?user=6H5eP7cAAAAJ&hl=it</a>
+    <a href="mailto: stingomichele@gmail.com">stingomichele@gmail.com</a>
+    <a href="https://orcid.org/0000-0002-0227-6129">0000-0002-0227-6129</a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
