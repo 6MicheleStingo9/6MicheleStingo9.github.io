@@ -1,7 +1,8 @@
 cv:
   name: "Michele Stingo"
-  location: Rome, Italy
+  label: "Senior Research and Development Scientist"
   email: "stingomichele@gmail.com"
+  location: Rome, Italy
   phone: (+39) 3888930698
   social_networks:
     - network: "LinkedIn"
@@ -12,74 +13,10 @@ cv:
     - placeholder: "Google Scholar"
       url: "https://scholar.google.com/citations?user=8O5RRAMAAAAJ&hl=it&oi=ao"
       fontawesome_icon: "graduation-cap"
+  summary: As a Ph.D. in Computational Linguistics, my expertise lies at the intersection of Natural Language Processing, Large Language Models, and the design of intelligent agent-based systems. My current research focuses on the development of cognitive agents and multi-agent architectures, with particular attention to orchestration mechanisms, stateful reasoning, and coordination patterns implemented through frameworks such as LangGraph. A central component of my research concerns knowledge representation and reasoning, particularly the use of ontologies and graph-based models to structure and organize information  within intelligent systems. I have practical experience with tools such as Protégé and Neo4j, and I explore how formal knowledge structures can enhance the capabilities of LLM-based architectures. These concepts increasingly inform my work on agent memory, shared state management, and symbolic–subsymbolic integration, enabling the design of systems in which language models interact with structured knowledge to support more reliable reasoning and decision-making. I specialize in the use of advanced prompt engineering techniques to fully leverage the reasoning, planning, and interaction capabilities of modern language models. I design prompts and control flows that support complex decision-making processes, tool usage, and inter-agent communication. My work actively contributes to transforming LLMs from simple text generators into goal-oriented components within structured systems. My previous experience includes the development of conversational systems using platforms such as IBM WatsonX and Azure Cognitive Services, providing a strong foundation in production-oriented AI solutions. I actively explore and evaluate emerging frameworks and tools for LLM-based applications, including LangChain, LangGraph, Ollama, and the Hugging Face Transformers ecosystem. My work is guided by continuous research into new scientific directions, architectural patterns, and methodologies aimed at building robust, interpretable, and scalable intelligent systems.
+
   sections:
-    summary:
-      - >-
-        As a Ph.D. in Computational Linguistics, my expertise lies at the
-        intersection of Natural Language Processing, Large
-
-        Language Models, and the design of intelligent agent-based systems. My
-        current research focuses on the development
-
-        of cognitive agents and multi-agent architectures, with particular
-        attention to orchestration mechanisms, stateful
-
-        reasoning, and coordination patterns implemented through frameworks such
-        as LangGraph.
-
-
-        A central component of my research concerns knowledge representation and
-        reasoning, particularly the use of
-
-        ontologies and graph-based models to structure and organize information
-        within intelligent systems. I have practical
-
-        experience with tools such as Protégé and Neo4j, and I explore how
-        formal knowledge structures can enhance the
-
-        capabilities of LLM-based architectures. These concepts increasingly
-        inform my work on agent memory, shared state
-
-        management, and symbolic–subsymbolic integration, enabling the design of
-        systems in which language models
-
-        interact with structured knowledge to support more reliable reasoning
-        and decision-making.
-
-
-        I specialize in the use of advanced prompt engineering techniques to
-        fully leverage the reasoning, planning, and
-
-        interaction capabilities of modern language models. I design prompts and
-        control flows that support complex decision-
-
-        making processes, tool usage, and inter-agent communication. My work
-        actively contributes to transforming LLMs
-
-        from simple text generators into goal-oriented components within
-        structured systems.
-
-
-        I work comfortably across several development environments,including
-        Jupyter, Colab, Kaggle Notebooks, and
-
-        Anaconda-based ecosystems. My previous experience includes the
-        development of conversational systems using
-
-        platforms such as IBM WatsonX and Azure Cognitive Services, providing a
-        strong foundation in production-oriented AI
-
-        solutions. I actively explore and evaluate emerging frameworks and tools
-        for LLM-based applications, including
-
-        LangChain, LangGraph, Ollama, and the Hugging Face Transformers
-        ecosystem. My work is guided by continuous
-
-        research into new scientific directions, architectural patterns, and
-        methodologies aimed at building robust,
-
-        interpretable, and scalable intelligent systems.
-    experience:
+    Experience:
       - company: "Activa Digital"
         position: "Senior Research and Development Scientist"
         location: "Rome, Italy"
@@ -97,6 +34,7 @@ cv:
             systems."
           - "Leading R&D team efforts and collaborating on grant procurement and
             experimental design."
+
       - company: "Luo"
         position: "Computational Linguist, Software Analyst, and Front-End Developer"
         location: "Rome, Italy"
@@ -111,6 +49,7 @@ cv:
             JSON."
           - "Developed mobile native applications using Flutter and web
             applications using Angular."
+
       - company: "University of Salerno"
         position: "PhD Researcher and Teaching Assistant"
         location: "Salerno, Italy"
@@ -122,7 +61,8 @@ cv:
           - "Enhanced AI industrial pipelines and improved pragmatic aspects of
             NLP solutions."
           - "Created linguistic corpora and electronic dictionaries."
-    education:
+
+    Education:
       - institution: "University of Salerno"
         area: "Computational Linguistics"
         degree: "PhD"
@@ -133,6 +73,7 @@ cv:
           - "Thesis: La formalizzazione della conoscenza linguistica in ambito
             industriale (Techniques, algorithms and electronic resources for Big
             Data for Multi-Agent Specialized Systems)."
+
       - institution: "Ca' Foscari University of Venice"
         area: "Language Sciences - Computational Linguistics"
         degree: "MA"
@@ -143,6 +84,7 @@ cv:
           - "Final Grade: 110/110 cum laude."
           - "Thesis: Computational Analysis on a Corpus of Political Satire
             Articles."
+
       - institution: "University of Salerno"
         area: "Literature and Philosophy - Modern Literature"
         degree: "BA"
@@ -151,12 +93,14 @@ cv:
         location: "Salerno, Italy"
         highlights:
           - "Final Grade: 110/110 cum laude."
+
       - institution: "I.T.C. Guido Dorso"
         area: "High School Diploma"
         degree: "Diploma"
         end_date: "2006"
         location: "Sarno, Italy"
-    publications:
+
+    Publications:
       - title: "xch-MIND: Multi-Agent Interpretive Knowledge Graph Augmentation over
           Cultural Heritage Linked Data"
         authors:
@@ -165,6 +109,7 @@ cv:
           Generation from Text (Text2KG) at the 23rd European Semantic Web
           Conference (ESWC)"
         date: "2026"
+
       - title: "Mina: SeMantic vIrtual Assistant for Domain oNtology Based
           Question-Answering"
         authors:
@@ -174,6 +119,7 @@ cv:
           - "M. Polito"
         journal: "Springer International Publishing (Incos-2020)"
         date: "2020"
+
       - title: "Assisted Contracts Validation through LCS problem resolution"
         authors:
           - "F. Martinucci"
@@ -181,6 +127,7 @@ cv:
           - "M. Polito"
         journal: "AIDAinformazioni"
         date: "2020"
+
       - title: "Automatic text preprocessing for intelligent dialog agents"
         authors:
           - "A. Maisto"
@@ -189,6 +136,7 @@ cv:
           - "*M. Stingo*"
         journal: "Springer International Publishing (Waina-33)"
         date: "2019"
+
       - title: "Multi-Word Expressions in spoken language: PoliSdict"
         authors:
           - "D. Trotta"
@@ -198,11 +146,13 @@ cv:
           - "A. Elia"
         journal: "CLiC-it 2018"
         date: "2018"
+
       - title: "OPI: Ontologia dei prodotti italiani con denominazione DOP, IGP, STG"
         authors:
           - "*M. Stingo*"
         journal: "AIDAinformazioni"
         date: "2018"
+
       - title: "A hybrid method for the extraction and classification of product
           features from user-generated contents"
         authors:
@@ -212,13 +162,15 @@ cv:
           - "R. Guarasci"
         journal: "Lingue e Linguaggi"
         date: "2017"
+
       - title: "Detecting satire in italian political commentaries"
         authors:
           - "*M. Stingo*"
           - "R. Delmonte"
         journal: "NLPMJ - AAAI"
         date: "2016"
-    skills:
+
+    Skills:
       - label: "Languages"
         details: "Italian (Native), English (C1), French (B2), Spanish (B1), Albanian
           (A2)"
