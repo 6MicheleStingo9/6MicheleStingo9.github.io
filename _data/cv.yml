@@ -13,8 +13,8 @@ cv:
     - placeholder: "Google Scholar"
       url: "https://scholar.google.com/citations?user=8O5RRAMAAAAJ&hl=it&oi=ao"
       fontawesome_icon: "graduation-cap"
-  summary: As a Ph.D. in Computational Linguistics, my expertise lies at the intersection of Natural Language Processing, Large Language Models, and the design of intelligent agent-based systems. My current research focuses on the development of cognitive agents and multi-agent architectures, with particular attention to orchestration mechanisms, stateful reasoning, and coordination patterns implemented through frameworks such as LangGraph. A central component of my research concerns knowledge representation and reasoning, particularly the use of ontologies and graph-based models to structure and organize information  within intelligent systems. I have practical experience with tools such as Protégé and Neo4j, and I explore how formal knowledge structures can enhance the capabilities of LLM-based architectures. These concepts increasingly inform my work on agent memory, shared state management, and symbolic–subsymbolic integration, enabling the design of systems in which language models interact with structured knowledge to support more reliable reasoning and decision-making. I specialize in the use of advanced prompt engineering techniques to fully leverage the reasoning, planning, and interaction capabilities of modern language models. I design prompts and control flows that support complex decision-making processes, tool usage, and inter-agent communication. My work actively contributes to transforming LLMs from simple text generators into goal-oriented components within structured systems. My previous experience includes the development of conversational systems using platforms such as IBM WatsonX and Azure Cognitive Services, providing a strong foundation in production-oriented AI solutions. I actively explore and evaluate emerging frameworks and tools for LLM-based applications, including LangChain, LangGraph, Ollama, and the Hugging Face Transformers ecosystem. My work is guided by continuous research into new scientific directions, architectural patterns, and methodologies aimed at building robust, interpretable, and scalable intelligent systems.
-
+  summary: Ph.D. in Computational Linguistics specialized in Natural Language Processing, Large Language Models, and intelligent multi-agent systems. My research focuses on cognitive agents, orchestration architectures, and knowledge representation through ontologies and graph-based representations, integrating structured knowledge with LLMs to support more reliable reasoning and decision-making. I work extensively with frameworks such as LangGraph and LangChain, and I actively explore open-source ecosystems including Hugging Face and Ollama for the development of scalable LLM-based applications. My expertise also includes advanced prompt engineering, agent coordination, and the design of structured AI systems capable of complex reasoning, planning, and inter-agent communication.
+  
   sections:
     Experience:
       - company: "Activa Digital"
@@ -22,45 +22,41 @@ cv:
         location: "Rome, Italy"
         start_date: "2023-09"
         end_date: "present"
+        summary: "As Senior Research and Development Scientist, I focus on the design of cognitive agents and multi-agent architectures for advanced AI applications. My work combines LLM orchestration, knowledge representation, and structured reasoning, with particular attention to graph-based knowledge integration and symbolic–subsymbolic approaches within intelligent systems. I also contribute to research planning, experimental design, and innovation-oriented R&D activities."
         highlights:
-          - "Developing cognitive agents and multi-agent architectures with a
-            focus on orchestration and coordination patterns using LangGraph."
-          - "Designing systems where language models interact with structured
-            knowledge (ontologies and graph-based models) to enhance reasoning."
+          - Leading R&D team efforts and collaborating on grant procurement and
+            experimental design
+          - "Development of cognitive agents and multi-agent systems using LangGraph
+            and LangChain frameworks."
+          - "Design of orchestration and coordination patterns for LLM-based architectures
+            to enable complex reasoning, planning, and inter-agent communication."
           - "Utilizing tools like Protégé and Neo4j for knowledge representation
             and symbolic–subsymbolic integration."
-          - "Implementing advanced prompt engineering and control flows to
-            support complex decision-making and tool usage in LLM-based
-            systems."
-          - "Leading R&D team efforts and collaborating on grant procurement and
-            experimental design."
+          - "Integration of ontologies and graph-based representations to improve reasoning capabilities
+            and decision-making processes in AI systems."
+          
 
       - company: "Luo"
         position: "Computational Linguist, Software Analyst, and Front-End Developer"
         location: "Rome, Italy"
         start_date: "2017-08"
         end_date: "2023-09"
+        summary: "At Luo, I worked across computational linguistics, software analysis, and front-end development, contributing to both NLP-oriented research activities and application development. My role involved linguistic resource creation, evaluation of NLP pipelines, ontology engineering, and the development of mobile and web-based solutions."
         highlights:
-          - "Performed linguistic data annotation and created domain-specific
-            monolingual corpora."
-          - "Evaluated NLP tools including lemmatizers, part-of-speech taggers,
-            and syntactic parsers."
-          - "Developed and manipulated ontological resources using OWL, XML, and
-            JSON."
-          - "Developed mobile native applications using Flutter and web
-            applications using Angular."
+          - "Mobile application development with Flutter and web application development with Angular."
+          - "Development and management of ontological resources using OWL, XML, and JSON."
+          - "Evaluation of NLP tools such as lemmatizers, POS taggers, and syntactic parsers, and the creation of linguistic corpora and electronic dictionaries."
 
       - company: "University of Salerno"
         position: "PhD Researcher and Teaching Assistant"
         location: "Salerno, Italy"
         start_date: "2016-10"
         end_date: "2020-03"
+        summary: "As a PhD Researcher and Teaching Assistant, I conducted research activities in computational linguistics and natural language processing while supporting teaching and student supervision. My work focused on improving NLP methodologies and contributing to the development of linguistic resources for both academic and applied contexts."
         highlights:
-          - "Conducted teaching activities and mentored graduate and
-            undergraduate students."
-          - "Enhanced AI industrial pipelines and improved pragmatic aspects of
-            NLP solutions."
-          - "Created linguistic corpora and electronic dictionaries."
+          - "Teaching support and mentoring of undergraduate and graduate students in computational linguistics and NLP courses."
+          - "Research on NLP pipelines and pragmatic aspects of AI-driven language systems."
+          - "Grant writing and project management for departmental research initiatives."
 
     Education:
       - institution: "University of Salerno"
@@ -70,9 +66,8 @@ cv:
         end_date: "2020-03"
         location: "Salerno, Italy"
         highlights:
-          - "Thesis: La formalizzazione della conoscenza linguistica in ambito
-            industriale (Techniques, algorithms and electronic resources for Big
-            Data for Multi-Agent Specialized Systems)."
+          - "Thesis: Techniques, algorithms and electronic resources for Big
+            Data for Multi-Agent Specialized Systems."
 
       - institution: "Ca' Foscari University of Venice"
         area: "Language Sciences - Computational Linguistics"
@@ -105,10 +100,10 @@ cv:
           Cultural Heritage Linked Data"
         authors:
           - "*Michele Stingo*"
-        journal: "Proceedings of the 5th Workshop on LLM-Integrated Knowledge Graph
-          Generation from Text (Text2KG) at the 23rd European Semantic Web
-          Conference (ESWC)"
-        date: "2026"
+        publisher: "CEUR-WS  (5th TEXT2KG @ ESWC 2026)"
+        releaseDate: "2026"
+        url: "https://arxiv.org"
+        summary: xch-MIND is a multi-agent framework for augmenting cultural heritage Linked Data with interpretive knowledge layers. Built on top of repositories such as ArCo, the system uses LLM-based agents to generate and validate spatial, temporal, and typological relationships between entities, combining hybrid confidence scoring, RDF knowledge representation, and provenance tracking to support reliable and expert-supervised knowledge graph enrichment.
 
       - title: "Mina: SeMantic vIrtual Assistant for Domain oNtology Based
           Question-Answering"
@@ -117,16 +112,31 @@ cv:
           - "G. Parente"
           - "*M. Stingo*"
           - "M. Polito"
-        journal: "Springer International Publishing (Incos-2020)"
-        date: "2020"
+        publisher: "Springer International Publishing (Incos-2020)"
+        releaseDate: "2020"
+        url: "https://link.springer.com/chapter/10.1007/978-3-030-57796-4_18"
+        summary: Mina is a semantic virtual assistant for ontology-based Question Answering, designed to extract fine-grained information from structured knowledge domains through natural language interaction. The system combines a multi-agent architecture with linguistic analysis tools and ontological reasoning, using Description Logic inference over domain ontologies to identify entities, interpret user intents, and retrieve precise answers from specialised knowledge bases.
 
       - title: "Assisted Contracts Validation through LCS problem resolution"
         authors:
           - "F. Martinucci"
           - "*M. Stingo*"
           - "M. Polito"
-        journal: "AIDAinformazioni"
-        date: "2020"
+        publisher: "Aracne Editrice - AIDAinformazioni"
+        releaseDate: "2020"
+        url: "https://www.aidainformazioni.it/index.php/aidainformazioni/article/view/27"
+        summary: "This work presents a software pipeline for assisted validation of phone-based contracts through automatic text comparison techniques. The system applies the Longest Common Subsequence (LCS) problem to compare audio transcriptions of spoken contracts against certified written versions, supporting the detection of inconsistencies and improving the reliability of contract validation processes within domains such as telecommunications and energy."
+
+      - title: "An Industrial Multi-Agent System (MAS) Platform"
+        authors:
+          - "A. Shashaj"
+          - "F. MAstrorilli"
+          - "*M. Stingo*"
+          - "M. Polito"
+        publisher: "Springer International Publishing (3PGCIC 2019)"
+        releaseDate: "2019"
+        url: "https://link.springer.com/chapter/10.1007/978-3-030-33509-0_20"
+        summary: "This paper presents an industrial platform for the development, deployment, and maintenance of Multi-Agent System (MAS) applications in distributed and parallel computing environments. The proposed architecture supports cooperative autonomous agents capable of reasoning, knowledge representation, and cognitive processing, enabling the management of complex and dynamic computational scenarios through scalable MAS-based solutions."
 
       - title: "Automatic text preprocessing for intelligent dialog agents"
         authors:
@@ -134,8 +144,10 @@ cv:
           - "S. Pelosi"
           - "M. Polito"
           - "*M. Stingo*"
-        journal: "Springer International Publishing (Waina-33)"
-        date: "2019"
+        publisher: "Springer International Publishing (Waina-33)"
+        releaseDate: "2019"
+        url: "https://link.springer.com/chapter/10.1007/978-3-030-15035-8_78"
+        summary: "This paper presents a hybrid text preprocessing pipeline for intelligent dialog agents, combining rule-based and stochastic approaches to improve the automatic processing of unstructured textual data. Developed within a larger multi-agent Question Answering project, the pipeline includes modules for style correction, clitic decomposition, POS tagging, and lemmatization, supporting scalable NLP workflows for conversational AI systems."
 
       - title: "Multi-Word Expressions in spoken language: PoliSdict"
         authors:
@@ -144,14 +156,18 @@ cv:
           - "R. Guarasci"
           - "A. Teresa"
           - "A. Elia"
-        journal: "CLiC-it 2018"
-        date: "2018"
+        publisher: "CEUR-WS (CLiC-it 2018)"
+        releaseDate: "2018"
+        url: "https://aclanthology.org/2018.clicit-1.66.pdf"
+        summary: "This paper presents PoliSdict, an electronic dictionary of Italian multi-word expressions automatically extracted from a multimodal corpus of political speech. The work focuses on the identification and analysis of MWEs through linguistic and statistical methods, including frequency analysis, syntactic pattern recognition, and ontology construction to support the semantic organization of political language resources."
 
-      - title: "OPI: Ontologia dei prodotti italiani con denominazione DOP, IGP, STG"
+      - title: "OPI: Ontology of Italian products with DOP, IGP, STG denomination"
         authors:
           - "*M. Stingo*"
-        journal: "AIDAinformazioni"
-        date: "2018"
+        publisher: "Aracne Editrice - AIDAinformazioni Special Issue"
+        releaseDate: "2018"
+        url: "https://www.aidainformazioni.it/index.php/aidainformazioni/article/view/82"
+        summary: "This paper presents OPI, the Ontology of Italian Protected Names, developed to provide a semantic and ontological representation of the domain of European quality labels and protected designations. The work models the normative structure regulating protected names through classes, properties, consistency validation, and Description Logic queries, contributing an Open Data resource for structured knowledge representation and semantic interoperability."
 
       - title: "A hybrid method for the extraction and classification of product
           features from user-generated contents"
@@ -160,30 +176,62 @@ cv:
           - "S. Pelosi"
           - "*M. Stingo*"
           - "R. Guarasci"
-        journal: "Lingue e Linguaggi"
-        date: "2017"
+        publisher: "ESE Salento University Publishing - Lingue e Linguaggi"
+        releaseDate: "2017"
+        url: "http://siba-ese.unisalento.it/index.php/linguelinguaggi/article/view/18352"
+        summary: "This paper explores the automatic extraction and organization of knowledge about products and services from online user-generated reviews. Combining rule-based NLP techniques, distributional semantics, and ontology engineering, the work focuses on review classification, feature extraction, and the integration of subjective user information into product-driven ontologies using the LG-Starship framework for Italian text processing."
 
       - title: "Detecting satire in italian political commentaries"
         authors:
+          - "R. Delmonte"
+          - "*M. Stingo*"
+        publisher: "Springer International Publishing  (ICCI 2016)"
+        releaseDate: "2016"
+        url: "https://link.springer.com/chapter/10.1007/978-3-319-45246-3_7"
+        summary: "This paper investigates the detection of satire and sarcasm in Italian political commentary through semantic analysis grounded in Appraisal Theory. Using manually annotated corpora and lexical resources derived from evaluative language patterns, the research explores the identification of ironic content by combining fine-grained linguistic annotation, figurative language analysis, and sentiment-based computational methods."
+
+      - title: "Annotating Satire in Italian Political Commentaries with Appraisal Theory"
+        authors:
           - "*M. Stingo*"
           - "R. Delmonte"
-        journal: "NLPMJ - AAAI"
-        date: "2016"
+        publisher: "Proceedings of IJCAI 2016"
+        releaseDate: "2016"
+        url: "https://iris.unive.it/bitstream/10278/3683343/1/Annotating_Satires.pdf"
+        summary: "This paper presents a study on the manual annotation of satire and sarcasm in Italian political commentary using Appraisal Theory. Through semantic and lexical analysis of evaluative language patterns, the research investigates how ironic and sarcastic discourse can be identified and differentiated across authors by means of fine-grained linguistic annotation techniques."
 
     Skills:
-      - label: "Languages"
-        details: "Italian (Native), English (C1), French (B2), Spanish (B1), Albanian
-          (A2)"
-      - label: "AI & NLP"
-        details: "LLMs, LangChain, LangGraph, Ollama, Hugging Face Transformers, NLTK,
-          Sentiment Analysis, POS Tagging"
-      - label: "Knowledge Engineering"
-        details: "Ontologies (OWL), Graph Databases, Neo4j, Protégé, Description Logic,
-          XML, JSON"
-      - label: "Software Development"
-        details: "Python, Prolog, Flutter, Angular, HTML5, CSS3, Bootstrap, Jupyter,
-          Anaconda"
-      - label: "Digital Competencies"
-        details: "Information and data literacy, communication and collaboration,
-          digital content creation, problem solving"
+      - name: AI & NLP
+        level: Expert
+        icon: fa-solid fa-hashtag
+        keywords: "LLMs, LangChain, LangGraph, Ollama, Hugging Face Transformers, NLTK, Spacy, Gensim, Sentiment Analysis, POS Tagging"
+      
+      - name: Knowledge Engineering
+        level: Expert
+        icon: fa-solid fa-diagram-project
+        keywords: "Ontologies (OWL), Graph Databases, Neo4j, Protégé, Description Logic, XML, JSON"
+
+      - name: Software Development
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, Prolog, Flutter, Angular, HTML5, CSS3, Bootstrap, Jupyter, Anaconda"
+
+      - name: Research & Project Management
+        level: Advanced
+        icon: fa-solid fa-briefcase
+        keywords: "Grant Writing, Experimental Design, Research Planning, R&D Leadership" 
+
+    Languages:
+      - name: Italian
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"
+
+      - name: French
+        summary: "basic proficiency"
+      
+      - name: Spanish
+        summary: "basic proficiency"
+
+
     
