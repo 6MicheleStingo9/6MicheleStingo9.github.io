@@ -26,10 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. in Computational Linguistics working at the intersection of Natural Language Processing, Large Language Models, and intelligent agent-based systems.
+Hi there! 
+ 
+This is a digital space where I share my work, research, and ongoing exploration in the fields of Natural Language Processing, Large Language Models, and intelligent agent-based systems.
 
-My research focuses on cognitive agents, multi-agent architectures, and orchestration mechanisms for stateful reasoning and coordinated decision-making. I am particularly interested in how language models can evolve from generative interfaces into structured reasoning systems capable of planning, memory management, and adaptive interaction.
+My interests revolve around cognitive agents, multi-agent architectures, reasoning systems, and the integration of structured knowledge within AI environments. I explore how language models can move beyond text generation to become components of systems capable of memory management, coordination, planning, and adaptive decision-making.
 
-A central aspect of my work concerns knowledge representation and the integration of symbolic and subsymbolic approaches within LLM-based architectures. I explore graph-based models, shared-state systems, and reasoning mechanisms aimed at building more reliable, interpretable, and cognitively grounded intelligent systems.
+A significant part of my work focuses on knowledge representation, graph-based models, ontologies, and the interaction between symbolic reasoning and modern LLM-based architectures. More broadly, I am interested in designing intelligent systems that are reliable, interpretable, and operationally autonomous.
 
-My interests also include prompt engineering, agent coordination, tool-augmented reasoning, and the design of scalable architectures for autonomous AI systems. More broadly, my work investigates how structured knowledge, memory, and reasoning can enhance the capabilities of contemporary language models.
+Here you will find research papers, technical articles, experimental projects, notes, and professional experiences that document the ideas and technologies shaping my work. The website also serves as a personal archive of ongoing experiments, reflections, and developments related to AI, computational linguistics, and cognitive systems engineering.
