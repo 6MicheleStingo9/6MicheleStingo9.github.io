@@ -6,9 +6,9 @@ cv:
   phone: (+39) 3888930698
   social_networks:
     - network: "LinkedIn"
-      username: Michele Stingo
+      username: michele-stingo
     - network: GitHub
-      username: 6MicheleStingo
+      username: 6MicheleStingo9
   custom_connections:
     - placeholder: "Google Scholar"
       url: "https://scholar.google.com/citations?user=8O5RRAMAAAAJ&hl=it&oi=ao"
