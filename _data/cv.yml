@@ -103,7 +103,6 @@ cv:
         publisher: "CEUR-WS  (5th TEXT2KG @ ESWC 2026)"
         releaseDate: "2026"
         url: "https://arxiv.org"
-        summary: xch-MIND is a multi-agent framework for augmenting cultural heritage Linked Data with interpretive knowledge layers. Built on top of repositories such as ArCo, the system uses LLM-based agents to generate and validate spatial, temporal, and typological relationships between entities, combining hybrid confidence scoring, RDF knowledge representation, and provenance tracking to support reliable and expert-supervised knowledge graph enrichment.
 
       - title: "Mina: SeMantic vIrtual Assistant for Domain oNtology Based
           Question-Answering"
@@ -115,7 +114,6 @@ cv:
         publisher: "Springer International Publishing (Incos-2020)"
         releaseDate: "2020"
         url: "https://link.springer.com/chapter/10.1007/978-3-030-57796-4_18"
-        summary: Mina is a semantic virtual assistant for ontology-based Question Answering, designed to extract fine-grained information from structured knowledge domains through natural language interaction. The system combines a multi-agent architecture with linguistic analysis tools and ontological reasoning, using Description Logic inference over domain ontologies to identify entities, interpret user intents, and retrieve precise answers from specialised knowledge bases.
 
       - title: "Assisted Contracts Validation through LCS problem resolution"
         authors:
@@ -125,7 +123,6 @@ cv:
         publisher: "Aracne Editrice - AIDAinformazioni"
         releaseDate: "2020"
         url: "https://www.aidainformazioni.it/index.php/aidainformazioni/article/view/27"
-        summary: "This work presents a software pipeline for assisted validation of phone-based contracts through automatic text comparison techniques. The system applies the Longest Common Subsequence (LCS) problem to compare audio transcriptions of spoken contracts against certified written versions, supporting the detection of inconsistencies and improving the reliability of contract validation processes within domains such as telecommunications and energy."
 
       - title: "An Industrial Multi-Agent System (MAS) Platform"
         authors:
@@ -136,7 +133,6 @@ cv:
         publisher: "Springer International Publishing (3PGCIC 2019)"
         releaseDate: "2019"
         url: "https://link.springer.com/chapter/10.1007/978-3-030-33509-0_20"
-        summary: "This paper presents an industrial platform for the development, deployment, and maintenance of Multi-Agent System (MAS) applications in distributed and parallel computing environments. The proposed architecture supports cooperative autonomous agents capable of reasoning, knowledge representation, and cognitive processing, enabling the management of complex and dynamic computational scenarios through scalable MAS-based solutions."
 
       - title: "Automatic text preprocessing for intelligent dialog agents"
         authors:
@@ -147,7 +143,6 @@ cv:
         publisher: "Springer International Publishing (Waina-33)"
         releaseDate: "2019"
         url: "https://link.springer.com/chapter/10.1007/978-3-030-15035-8_78"
-        summary: "This paper presents a hybrid text preprocessing pipeline for intelligent dialog agents, combining rule-based and stochastic approaches to improve the automatic processing of unstructured textual data. Developed within a larger multi-agent Question Answering project, the pipeline includes modules for style correction, clitic decomposition, POS tagging, and lemmatization, supporting scalable NLP workflows for conversational AI systems."
 
       - title: "Multi-Word Expressions in spoken language: PoliSdict"
         authors:
@@ -159,7 +154,6 @@ cv:
         publisher: "CEUR-WS (CLiC-it 2018)"
         releaseDate: "2018"
         url: "https://aclanthology.org/2018.clicit-1.66.pdf"
-        summary: "This paper presents PoliSdict, an electronic dictionary of Italian multi-word expressions automatically extracted from a multimodal corpus of political speech. The work focuses on the identification and analysis of MWEs through linguistic and statistical methods, including frequency analysis, syntactic pattern recognition, and ontology construction to support the semantic organization of political language resources."
 
       - title: "OPI: Ontology of Italian products with DOP, IGP, STG denomination"
         authors:
@@ -167,7 +161,6 @@ cv:
         publisher: "Aracne Editrice - AIDAinformazioni Special Issue"
         releaseDate: "2018"
         url: "https://www.aidainformazioni.it/index.php/aidainformazioni/article/view/82"
-        summary: "This paper presents OPI, the Ontology of Italian Protected Names, developed to provide a semantic and ontological representation of the domain of European quality labels and protected designations. The work models the normative structure regulating protected names through classes, properties, consistency validation, and Description Logic queries, contributing an Open Data resource for structured knowledge representation and semantic interoperability."
 
       - title: "A hybrid method for the extraction and classification of product
           features from user-generated contents"
@@ -179,7 +172,6 @@ cv:
         publisher: "ESE Salento University Publishing - Lingue e Linguaggi"
         releaseDate: "2017"
         url: "http://siba-ese.unisalento.it/index.php/linguelinguaggi/article/view/18352"
-        summary: "This paper explores the automatic extraction and organization of knowledge about products and services from online user-generated reviews. Combining rule-based NLP techniques, distributional semantics, and ontology engineering, the work focuses on review classification, feature extraction, and the integration of subjective user information into product-driven ontologies using the LG-Starship framework for Italian text processing."
 
       - title: "Detecting satire in italian political commentaries"
         authors:
@@ -188,7 +180,6 @@ cv:
         publisher: "Springer International Publishing  (ICCI 2016)"
         releaseDate: "2016"
         url: "https://link.springer.com/chapter/10.1007/978-3-319-45246-3_7"
-        summary: "This paper investigates the detection of satire and sarcasm in Italian political commentary through semantic analysis grounded in Appraisal Theory. Using manually annotated corpora and lexical resources derived from evaluative language patterns, the research explores the identification of ironic content by combining fine-grained linguistic annotation, figurative language analysis, and sentiment-based computational methods."
 
       - title: "Annotating Satire in Italian Political Commentaries with Appraisal Theory"
         authors:
@@ -197,7 +188,6 @@ cv:
         publisher: "Proceedings of IJCAI 2016"
         releaseDate: "2016"
         url: "https://iris.unive.it/bitstream/10278/3683343/1/Annotating_Satires.pdf"
-        summary: "This paper presents a study on the manual annotation of satire and sarcasm in Italian political commentary using Appraisal Theory. Through semantic and lexical analysis of evaluative language patterns, the research investigates how ironic and sarcastic discourse can be identified and differentiated across authors by means of fine-grained linguistic annotation techniques."
 
     Skills:
       - name: AI & NLP

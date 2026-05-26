@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"AIDA":
+  color: "#009f36"
+
+"Springer":
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CEUR-WS":
+  color: "#b509ac"
 
-"Vision":
-  color: "#009f36"
+"ESE":
+  color: "#9f0000"
+
+"AAAI":
+  color: "#9f9f00"
