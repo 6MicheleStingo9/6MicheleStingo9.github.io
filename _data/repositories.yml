@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - 6MicheleStingo9
 
-repo_description_lines_max: 2
+repo_description_lines_max: 20
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - 6MicheleStingo9/xch-MIND
+  - 6MicheleStingo9/AREA
+
