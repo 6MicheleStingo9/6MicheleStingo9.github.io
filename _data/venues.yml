@@ -4,39 +4,39 @@
 
 "INCOS":
   url: "https://voyager.ce.fit.ac.jp/conf/incos/2020/"
-  color: "#00369f"
+  color: "#003160"
 
 "AIDA_b":
   url: "https://www.aidainformazioni.it/index.php/aidainformazioni/article/view/27"
-  color: "#b509ac"
+  color: "#f8e6be"
 
 "WAINA":
   url: "https://voyager.ce.fit.ac.jp/conf/aina/2019/"
-  color: "#9f0000"
+  color: "#003160"
 
 "3PGCIC":
   url: "https://voyager.ce.fit.ac.jp/conf/3pgcic/2019/"
-  color: "#9f9f00"
+  color: "#de3411"
 
 "AIDA_a":
   url: "https://accademiadellacrusca.it/it/contenuti/xxviii-convegno-internazionale-assiterm-terminologie-e-risorse-linguistiche-per-comunicare-in-europa/5305"
-  color: "#b509ac"
+  color: "#f8e6be"
 
 "CLIC-it":
   url: "https://cris.unibo.it/handle/11585/667985"
-  color: "#00869f"
+  color: "#b509ac"
 
 "ESE":
   url: "http://siba-ese.unisalento.it/index.php/linguelinguaggi/article/view/18352"
-  color: "#3f009f"
+  color: "#e2a537"
 
 "NLPJ":
   url: "https://nlpj2016.fbk.eu/home"
-  color: "#0f2f00"
+  color: "#009f36"
 
 "ICCI":
   url: "https://link.springer.com/book/10.1007/978-3-319-45246-3"
-  color: "#9f0050"
+  color: "#0b4ca3"
 
 
 
