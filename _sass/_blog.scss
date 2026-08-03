@@ -165,3 +165,10 @@
     }
   }
 }
+
+/* Wikilinks whose target is not published: the label reads as normal prose,
+   with the source kept in the tooltip. */
+.wikilink-unresolved {
+  border-bottom: 1px dotted var(--global-divider-color);
+  cursor: help;
+}
