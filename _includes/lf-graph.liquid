@@ -1,0 +1,147 @@
+{% comment %}
+  Lost & Found interactive graph. Params:
+    sources: "on" to reveal external-source nodes by default (default: off)
+    full:    any truthy value to show an "open full map" link to /notes/map/
+  Data comes from _data/lf_graph.json (regenerate when the notes change).
+{% endcomment %}
+<div class="lf-graph" id="lf-graph" data-baseurl="{{ site.baseurl }}" data-sources="{{ include.sources | default: 'off' }}">
+  <div class="lf-controls">
+    <label class="lf-ctl"
+      ><input
+        type="checkbox"
+        class="lf-toggle-sources"
+        {% if include.sources == 'on' %}
+          checked
+        {% endif %}
+      >
+      sources</label
+    >
+    <button type="button" class="lf-btn lf-fit">fit</button>
+    <span class="lf-hint">scroll = zoom · drag background = pan · drag a node to move it</span>
+    {% if include.full -%}
+      <a class="lf-full" href="{{ '/notes/map/' | relative_url }}">open full map ↗</a>
+    {%- endif %}
+  </div>
+  <div class="lf-legend">
+    <span><i style="background: #eab308"></i>manifesto</span>
+    <span><i style="background: #3b82c4"></i>note</span>
+    <span><i style="background: #9aa0a6"></i>source</span>
+  </div>
+</div>
+
+<script type="application/json" id="lf-graph-data">
+  {{ site.data.lf_graph | jsonify }}
+</script>
+<script defer src="{{ '/assets/js/lf-graph.js' | relative_url }}"></script>
+
+<style>
+  .lf-graph {
+    width: 100%;
+    margin: 1.25rem 0;
+  }
+  .lf-graph .lf-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.85rem;
+  }
+  .lf-graph .lf-ctl {
+    cursor: pointer;
+    user-select: none;
+  }
+  .lf-graph .lf-ctl input {
+    vertical-align: middle;
+    margin-right: 0.3rem;
+  }
+  .lf-graph .lf-btn {
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 0.1rem 0.6rem;
+    cursor: pointer;
+    color: var(--global-text-color);
+    background: transparent;
+    border: 1px solid var(--global-divider-color, #999);
+    border-radius: 5px;
+  }
+  .lf-graph .lf-btn:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+  .lf-graph .lf-hint {
+    opacity: 0.6;
+  }
+  .lf-graph .lf-full {
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .lf-graph .lf-svg {
+    width: 100%;
+    height: 66vh;
+    min-height: 440px;
+    display: block;
+    color: var(--global-text-color);
+    border: 1px solid var(--global-divider-color, rgba(128, 128, 128, 0.25));
+    border-radius: 8px;
+    touch-action: none;
+  }
+  .lf-graph .lf-edges line {
+    stroke: currentColor;
+    stroke-opacity: 0.22;
+    stroke-width: 1.2;
+  }
+  .lf-graph .lf-edges line.lf-on {
+    stroke-opacity: 0.65;
+    stroke-width: 1.8;
+  }
+  .lf-graph .lf-node {
+    cursor: pointer;
+  }
+  .lf-graph .lf-node circle {
+    stroke: var(--global-bg-color);
+    stroke-width: 1.5px;
+    transition: opacity 0.15s ease;
+  }
+  .lf-graph .lf-label {
+    fill: currentColor;
+    font-size: 17px;
+    text-anchor: middle;
+    paint-order: stroke;
+    stroke: var(--global-bg-color);
+    stroke-width: 3.5px;
+    pointer-events: none;
+  }
+  .lf-graph .lf-node--external .lf-label {
+    opacity: 0;
+    font-size: 14px;
+  }
+  .lf-graph .lf-node--external:hover .lf-label,
+  .lf-graph .lf-node--external.lf-on .lf-label {
+    opacity: 1;
+  }
+  .lf-graph .lf-svg.lf-dim .lf-node:not(.lf-on) {
+    opacity: 0.14;
+  }
+  .lf-graph .lf-svg.lf-dim .lf-edges line:not(.lf-on) {
+    stroke-opacity: 0.04;
+  }
+  .lf-graph .lf-legend {
+    margin-top: 0.4rem;
+    font-size: 0.82rem;
+    opacity: 0.85;
+  }
+  .lf-graph .lf-legend span {
+    display: inline-block;
+    margin-right: 1.1rem;
+    white-space: nowrap;
+  }
+  .lf-graph .lf-legend i {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    margin-right: 0.35rem;
+    vertical-align: middle;
+  }
+</style>
