@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi there! 
- 
+Hi there!
+
 This is a digital space where I share my work, research, and ongoing exploration in the fields of Natural Language Processing, Large Language Models, and intelligent agent-based systems.
 
 My interests revolve around cognitive agents, multi-agent architectures, reasoning systems, and the integration of structured knowledge within AI environments. I explore how language models can move beyond text generation to become components of systems capable of memory management, coordination, planning, and adaptive decision-making.
