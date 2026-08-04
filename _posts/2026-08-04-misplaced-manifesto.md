@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lost&Found - a misplaced manifesto
-date: 2026-07-29 10:00:00
+date: 2026-08-04 10:00:00
 description: why this blog exists, and what will end up in it
 thumbnail: assets/img/dore-astolfo-moon.jpg
 og_image: https://6MicheleStingo9.github.io/assets/img/dore-astolfo-moon-og.jpg
