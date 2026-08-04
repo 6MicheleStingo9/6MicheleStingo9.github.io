@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-This site went live.
+Site launched!
