@@ -53,16 +53,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-site-launched",
+          title: 'Site launched!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-the-proceedings-of-the-fifth-international-workshop-on-llm-integrated-knowledge-graph-generation-from-text-text2kg-are-out-including-my-paper-xch-mind-multi-agent-interpretive-knowledge-graph-augmentation-over-cultural-heritage-linked-data",
+          title: 'The proceedings of the Fifth International Workshop on LLM-Integrated Knowledge Graph Generation From...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-started-lost-amp-amp-found-a-place-for-notes-dead-ends-and-things-that-lost-their-context-here-s-a-misplaced-manifesto-to-say-what-for",
+          title: 'Started Lost&amp;amp;amp;Found, a place for notes, dead ends and things that lost their...',
           description: "",
           section: "News",},{id: "notes-umberto-eco-the-search-for-the-perfect-language",
           title: 'Umberto Eco - The Search for the Perfect Language',
