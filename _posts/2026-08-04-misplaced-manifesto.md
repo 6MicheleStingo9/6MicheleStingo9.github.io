@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Lost&Found - a misplaced manifesto
+title: A misplaced manifesto
 date: 2026-08-04 10:00:00
 description: why this blog exists, and what will end up in it
 thumbnail: assets/img/dore-astolfo-moon.jpg
 og_image: https://6MicheleStingo9.github.io/assets/img/dore-astolfo-moon-og.jpg
+related_posts: false
 toc:
-  sidebar: left
+  sidebar: right
 ---
 
 <div class="row justify-content-center">
@@ -15,7 +16,7 @@ toc:
   </div>
 </div>
 <div class="caption">
-  Gustave Doré, <em>In Elijah's chariot, St. John and Astolfo travel to the moon</em> — for Ariosto's <em>Orlando Furioso</em>, 1879. Engraved by Ch. Barbant.
+  Gustave Doré, 1879 — <em>In Elijah's chariot, St. John and Astolfo travel to the moon</em>, for Ariosto's <em>Orlando Furioso</em>. Engraved by Ch. Barbant.
 </div>
 
 ## What this is
