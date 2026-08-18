@@ -172,3 +172,65 @@
   border-bottom: 1px dotted var(--global-divider-color);
   cursor: help;
 }
+
+/* Bibliographic references kept out of the prose: the full citation lives in
+   the tooltip, the sentence stays readable without it. */
+.source-ref {
+  border-bottom: 1px dotted var(--global-divider-color);
+  cursor: help;
+}
+
+/* Captured terminal output. The class names record what each colour means in
+   the tool that produced them, not the colour itself. The block stays dark in
+   both site themes: this is a screen, not a page. */
+.terminal {
+  background-color: #1b1d22;
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+
+  pre {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+  }
+
+  code {
+    padding: 0;
+    background: none;
+    color: #cdd0d6;
+    font-size: 0.78rem;
+    line-height: 1.55;
+  }
+
+  .et-prompt {
+    color: #98c379;
+  }
+  .et-lemma {
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .et-lang {
+    color: #7a7f87;
+  }
+  .et-source {
+    color: #56b6c2;
+    font-style: italic;
+  } /* the source speaking */
+  .et-relation {
+    color: #c678dd;
+  }
+  .et-finding {
+    color: #e5c07b;
+    font-weight: 700;
+  } /* the language has no more */
+  .et-limit {
+    color: #e06c75;
+    font-weight: 700;
+  } /* the source or the tool fell short */
+  .et-note {
+    color: #7a7f87;
+  }
+}
