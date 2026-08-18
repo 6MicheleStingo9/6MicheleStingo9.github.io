@@ -37,9 +37,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-lost-amp-found-a-misplaced-manifesto",
+        },{id: "post-invocation",
         
-          title: "Lost&amp;Found - a misplaced manifesto",
+          title: "Invocation",
+        
+        description: "Of doubleness, thresholds and the marks we leave",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/janus/";
+          
+        },
+      },{id: "post-a-misplaced-manifesto",
+        
+          title: "A misplaced manifesto",
         
         description: "why this blog exists, and what will end up in it",
         section: "Posts",
@@ -61,6 +72,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-started-lost-amp-amp-found-a-place-for-notes-dead-ends-and-things-that-lost-their-context-here-s-a-misplaced-manifesto-to-say-what-for",
           title: 'Started Lost&amp;amp;amp;Found, a place for notes, dead ends and things that lost their...',
+          description: "",
+          section: "News",},{id: "news-etimo-v1-is-out-it-traces-a-word-s-recorded-ancestry-through-wiktionary-one-ancestor-at-a-time",
+          title: 'etimo v1 is out — it traces a word’s recorded ancestry through Wiktionary,...',
           description: "",
           section: "News",},{id: "notes-umberto-eco-the-search-for-the-perfect-language",
           title: 'Umberto Eco - The Search for the Perfect Language',
