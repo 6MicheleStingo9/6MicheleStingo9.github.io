@@ -1,0 +1,342 @@
+{
+  "nodes": [
+    {
+      "id": "/it/blog/2026/misplaced-manifesto/",
+      "label": "manifesto smarrito",
+      "type": "post",
+      "url": "/it/blog/2026/misplaced-manifesto/"
+    },
+    {
+      "id": "/it/notes/eco-search-for-the-perfect-language/",
+      "label": "Eco — Lingua perfetta",
+      "type": "note",
+      "url": "/it/notes/eco-search-for-the-perfect-language/"
+    },
+    {
+      "id": "/it/notes/merton-barber-serendipity/",
+      "label": "Merton & Barber — Serendipità",
+      "type": "note",
+      "url": "/it/notes/merton-barber-serendipity/"
+    },
+    {
+      "id": "/it/notes/stallings-lost-and-found/",
+      "label": "Stallings — Lost and Found",
+      "type": "note",
+      "url": "/it/notes/stallings-lost-and-found/"
+    },
+    {
+      "id": "/it/notes/wittgenstein-philosophical-investigations/",
+      "label": "Wittgenstein — Ricerche",
+      "type": "note",
+      "url": "/it/notes/wittgenstein-philosophical-investigations/"
+    },
+    {
+      "id": "/it/notes/wittgenstein-tractatus/",
+      "label": "Wittgenstein — Tractatus",
+      "type": "note",
+      "url": "/it/notes/wittgenstein-tractatus/"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Umberto_Eco",
+      "label": "Umberto Eco",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Umberto_Eco"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/La_Ricerca_della_Lingua_Perfetta_nella_Cultura_Europea",
+      "label": "La ricerca della lingua perfetta",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/La_ricerca_della_lingua_perfetta_nella_cultura_europea"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Adamic_language",
+      "label": "lingua di Adamo",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Lingua_adamitica"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Cratylus_(dialogue)",
+      "label": "Cratilo",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Cratilo_(dialogo)"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Tower_of_Babel",
+      "label": "Babele",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Torre_di_Babele"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Ramon_Llull",
+      "label": "Raimondo Lullo",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Raimondo_Lullo"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Characteristica_universalis",
+      "label": "characteristica universalis",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Characteristica_universalis"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Robert_K._Merton",
+      "label": "Robert K. Merton",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Robert_King_Merton"
+    },
+    {
+      "id": "https://press.princeton.edu/books/paperback/9780691126302/the-travels-and-adventures-of-serendipity",
+      "label": "Princeton UP (2004)",
+      "type": "external",
+      "url": "https://press.princeton.edu/books/paperback/9780691126302/the-travels-and-adventures-of-serendipity"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Serendipity",
+      "label": "serendipità",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Serendipit%C3%A0"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Horace_Walpole",
+      "label": "Horace Walpole",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Horace_Walpole"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/The_Three_Princes_of_Serendip",
+      "label": "I tre principi di Serendippo",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Peregrinaggio_di_tre_giovani_figliuoli_del_re_di_Serendippo"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/A._E._Stallings",
+      "label": "A.E. Stallings",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Alicia_Stallings"
+    },
+    {
+      "id": "https://www.bpj.org/issues/v63n3",
+      "label": "Beloit Poetry Journal 63.3",
+      "type": "external",
+      "url": "https://www.bpj.org/issues/v63n3"
+    },
+    {
+      "id": "https://cdn.prod.website-files.com/59c2da476a389000016bfa13/5be5b396588a6ba8d07b3822_V63N3p023-031.pdf",
+      "label": "La poesia (PDF)",
+      "type": "external",
+      "url": "https://cdn.prod.website-files.com/59c2da476a389000016bfa13/5be5b396588a6ba8d07b3822_V63N3p023-031.pdf"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Ottava_rima",
+      "label": "ottava rima",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Ottava_rima"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Orlando_Furioso",
+      "label": "Orlando furioso",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Orlando_furioso"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Astolfo",
+      "label": "Astolfo",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Astolfo"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Mnemosyne",
+      "label": "Mnemosine",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Mnemosine"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+      "label": "Ludwig Wittgenstein",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Ludwig_Wittgenstein"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Philosophical_Investigations",
+      "label": "Ricerche filosofiche",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Ricerche_filosofiche"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Language_game_(philosophy)",
+      "label": "giochi linguistici",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Gioco_linguistico"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Form_of_life_(philosophy)",
+      "label": "forma di vita",
+      "type": "external",
+      "url": "https://en.wikipedia.org/wiki/Form_of_life_(philosophy)"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Family_resemblance",
+      "label": "somiglianze di famiglia",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Somiglianza_di_famiglia"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus",
+      "label": "Tractatus logico-philosophicus",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Tractatus_logico-philosophicus"
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Picture_theory_of_language",
+      "label": "teoria raffigurativa",
+      "type": "external",
+      "url": "https://it.wikipedia.org/wiki/Teoria_raffigurativa_del_linguaggio"
+    }
+  ],
+  "links": [
+    {
+      "source": "/it/blog/2026/misplaced-manifesto/",
+      "target": "/it/notes/stallings-lost-and-found/"
+    },
+    {
+      "source": "/it/blog/2026/misplaced-manifesto/",
+      "target": "/it/notes/eco-search-for-the-perfect-language/"
+    },
+    {
+      "source": "/it/blog/2026/misplaced-manifesto/",
+      "target": "/it/notes/wittgenstein-philosophical-investigations/"
+    },
+    {
+      "source": "/it/blog/2026/misplaced-manifesto/",
+      "target": "/it/notes/wittgenstein-tractatus/"
+    },
+    {
+      "source": "/it/blog/2026/misplaced-manifesto/",
+      "target": "/it/notes/merton-barber-serendipity/"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "/it/notes/stallings-lost-and-found/"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "https://en.wikipedia.org/wiki/Umberto_Eco"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "https://en.wikipedia.org/wiki/La_Ricerca_della_Lingua_Perfetta_nella_Cultura_Europea"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "https://en.wikipedia.org/wiki/Adamic_language"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "https://en.wikipedia.org/wiki/Cratylus_(dialogue)"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "https://en.wikipedia.org/wiki/Tower_of_Babel"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "https://en.wikipedia.org/wiki/Ramon_Llull"
+    },
+    {
+      "source": "/it/notes/eco-search-for-the-perfect-language/",
+      "target": "https://en.wikipedia.org/wiki/Characteristica_universalis"
+    },
+    {
+      "source": "/it/notes/merton-barber-serendipity/",
+      "target": "/it/notes/eco-search-for-the-perfect-language/"
+    },
+    {
+      "source": "/it/notes/merton-barber-serendipity/",
+      "target": "https://en.wikipedia.org/wiki/Robert_K._Merton"
+    },
+    {
+      "source": "/it/notes/merton-barber-serendipity/",
+      "target": "https://press.princeton.edu/books/paperback/9780691126302/the-travels-and-adventures-of-serendipity"
+    },
+    {
+      "source": "/it/notes/merton-barber-serendipity/",
+      "target": "https://en.wikipedia.org/wiki/Serendipity"
+    },
+    {
+      "source": "/it/notes/merton-barber-serendipity/",
+      "target": "https://en.wikipedia.org/wiki/Horace_Walpole"
+    },
+    {
+      "source": "/it/notes/merton-barber-serendipity/",
+      "target": "https://en.wikipedia.org/wiki/The_Three_Princes_of_Serendip"
+    },
+    {
+      "source": "/it/notes/stallings-lost-and-found/",
+      "target": "https://en.wikipedia.org/wiki/A._E._Stallings"
+    },
+    {
+      "source": "/it/notes/stallings-lost-and-found/",
+      "target": "https://www.bpj.org/issues/v63n3"
+    },
+    {
+      "source": "/it/notes/stallings-lost-and-found/",
+      "target": "https://cdn.prod.website-files.com/59c2da476a389000016bfa13/5be5b396588a6ba8d07b3822_V63N3p023-031.pdf"
+    },
+    {
+      "source": "/it/notes/stallings-lost-and-found/",
+      "target": "https://en.wikipedia.org/wiki/Ottava_rima"
+    },
+    {
+      "source": "/it/notes/stallings-lost-and-found/",
+      "target": "https://en.wikipedia.org/wiki/Orlando_Furioso"
+    },
+    {
+      "source": "/it/notes/stallings-lost-and-found/",
+      "target": "https://en.wikipedia.org/wiki/Astolfo"
+    },
+    {
+      "source": "/it/notes/stallings-lost-and-found/",
+      "target": "https://en.wikipedia.org/wiki/Mnemosyne"
+    },
+    {
+      "source": "/it/notes/wittgenstein-philosophical-investigations/",
+      "target": "/it/notes/wittgenstein-tractatus/"
+    },
+    {
+      "source": "/it/notes/wittgenstein-philosophical-investigations/",
+      "target": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+    },
+    {
+      "source": "/it/notes/wittgenstein-philosophical-investigations/",
+      "target": "https://en.wikipedia.org/wiki/Philosophical_Investigations"
+    },
+    {
+      "source": "/it/notes/wittgenstein-philosophical-investigations/",
+      "target": "https://en.wikipedia.org/wiki/Language_game_(philosophy)"
+    },
+    {
+      "source": "/it/notes/wittgenstein-philosophical-investigations/",
+      "target": "https://en.wikipedia.org/wiki/Form_of_life_(philosophy)"
+    },
+    {
+      "source": "/it/notes/wittgenstein-philosophical-investigations/",
+      "target": "https://en.wikipedia.org/wiki/Family_resemblance"
+    },
+    {
+      "source": "/it/notes/wittgenstein-tractatus/",
+      "target": "/it/notes/eco-search-for-the-perfect-language/"
+    },
+    {
+      "source": "/it/notes/wittgenstein-tractatus/",
+      "target": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+    },
+    {
+      "source": "/it/notes/wittgenstein-tractatus/",
+      "target": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus"
+    },
+    {
+      "source": "/it/notes/wittgenstein-tractatus/",
+      "target": "https://en.wikipedia.org/wiki/Picture_theory_of_language"
+    }
+  ]
+}
