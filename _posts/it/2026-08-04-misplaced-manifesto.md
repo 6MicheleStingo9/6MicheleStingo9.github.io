@@ -21,42 +21,42 @@ toc:
 
 ## Che cos'è
 
-Agli oggetti smarriti finisce quello che non appartiene a nessun altro posto ma è troppo buono per essere buttato. Un cavo che non entra in niente di tuo. Un libro dimenticato da qualcuno. Oggetti — o idee — che hanno perso il loro contesto e aspettano che torni.
+Un ufficio oggetti smarriti è il luogo in cui finisce ciò che non appartiene più a nessun posto e che però sarebbe un peccato buttare. Un cavo che non si adatta a nulla di ciò che hai. Un libro dimenticato da qualcuno. Oggetti — o idee — che hanno perso il loro contesto e aspettano che ritorni.
 
-È come la valle lunare dell'Ariosto in [[A.E. Stallings - Lost and Found]], dove si accumula tutto ciò che sulla terra è andato perduto, in attesa di una cornice che gli ridia un senso — una cornice che ci manca [[Umberto Eco - La ricerca della lingua perfetta|da Babele]], da quando nome e cosa hanno smesso di coincidere.
+Somiglia alla valle lunare dell'Ariosto di cui parla [[A.E. Stallings - Lost and Found]], dove si raccoglie tutto quello che sulla terra è andato perduto, in attesa di una cornice che gli restituisca un senso: una cornice che ci manca [[Umberto Eco - La ricerca della lingua perfetta|da Babele]], da quando il nome e la cosa hanno smesso di coincidere.
 
-Nessuno l'ha più rimessa insieme, e la ricerca continua a perdere pezzi per strada; gli oggetti smarriti sono uno dei posti in cui quei pezzi vanno a finire.
+Nessuno l'ha più ricomposta, e la ricerca continua a lasciarsi dietro materiale sparso: un ufficio oggetti smarriti è uno dei luoghi in cui quel materiale si deposita.
 
 Ecco, più o meno, a che cosa serve questo posto.
 
 ## Di che cosa mi occupo davvero
 
-Il mio lavoro sta all'incrocio fra modelli linguistici e rappresentazione della conoscenza: agenti cognitivi, architetture multi-agente, sistemi di ragionamento, e la domanda di come conoscenza strutturata e modelli neurali possano cooperare invece di limitarsi a coesistere.
+Il mio lavoro sta dove i modelli linguistici incontrano la rappresentazione della conoscenza: agenti cognitivi, architetture multi-agente, sistemi di ragionamento, e la domanda di come si possa far cooperare la conoscenza strutturata con i modelli neurali invece di lasciarle semplicemente convivere.
 
-Il filo che li tiene insieme è che i modelli linguistici sono più interessanti come _componenti_ che come prodotti: il loro significato sta nell'[[Ludwig Wittgenstein - Ricerche filosofiche|uso]], non nel modello. Un modello che genera testo scorrevole è un problema risolto.
+Il filo che tiene insieme tutto questo è che i modelli linguistici sono più interessanti come _componenti_ che come prodotti: il loro significato sta nell'[[Ludwig Wittgenstein - Ricerche filosofiche|uso]], non nel modello. Un modello che produce testo scorrevole è un problema risolto.
 
-Un sistema che ricorda, si coordina, pianifica, rivede le proprie conclusioni e sa spiegare come ci è arrivato — quello è ancora in gran parte aperto. Per costruirlo servono sia la macchina statistica sia l'[[Ludwig Wittgenstein - Tractatus logico-philosophicus|impalcatura simbolica]] — e l'orecchio per capire su che cosa anche quella debba «tacere». I problemi interessanti vivono nella cucitura fra le due.
+Un sistema che ricordi, si coordini, pianifichi, torni sulle proprie conclusioni e sappia dire come ci è arrivato, invece, resta in gran parte un problema aperto. Per costruirlo servono insieme la macchina statistica e l'[[Ludwig Wittgenstein - Tractatus logico-philosophicus|impalcatura simbolica]] — e l'orecchio per riconoscere ciò su cui anche quest'ultima deve «tacere». I problemi interessanti si trovano nella linea di giunzione tra le due cose.
 
-Da quella cucitura arriveranno gli appunti: grafi e ontologie, ragionamento che deve sopravvivere al contatto con un sistema vero, resoconti di ingegneria scritti costruendo agenti che devono essere affidabili prima che impressionanti.
+Da quella cucitura arriveranno gli appunti: grafi e ontologie, ragionamenti che devono sopravvivere all'incontro con un sistema vero, resoconti di ingegneria nati costruendo agenti che devono essere affidabili prima ancora che appariscenti.
 
 ## Appunti per i curiosi e per chi si distrae facilmente
 
-Il sottotitolo non è modestia. La distrazione è un metodo.
+Il sottotitolo non è civetteria. La distrazione è un metodo.
 
-L'idea utile non è quasi mai quella che eri partito a cercare: di solito le sta accanto, in un campo confinante, in una nota a piè di pagina, nello strumento che hai dovuto costruire per fare l'esperimento. Seguire quell'adiacenza è il modo in cui si trovano i legami che una linea retta attraverso il problema avrebbe mancato. È [[Merton & Barber - Viaggi e avventure della serendipity|serendipità]] in senso stretto — accidente _e_ sagacia, mai l'uno senza l'altra. Il prezzo è che ti ritrovi in mano molto materiale sciolto e senza una casa evidente.
+L'idea utile non è quasi mai quella che si era usciti a cercare: le sta accanto, in una disciplina confinante, in una nota a piè di pagina, nello strumento che si è dovuto costruire per fare l'esperimento. Seguire quell'adiacenza è il modo in cui si trovano i legami che una linea retta attraverso il problema avrebbe mancato. È [[Merton & Barber - Viaggi e avventure della serendipity|serendipità]] in senso stretto: accidente _e_ sagacia, mai l'uno senza l'altra. Il prezzo è ritrovarsi fra le mani molto materiale sciolto e senza una collocazione evidente.
 
-Da qui gli oggetti smarriti.
+Da qui l'ufficio oggetti smarriti.
 
 ## Che cosa non è
 
-Non è un sito di tutorial. Non è rifinito. Non ha una cadenza. Certe voci saranno due paragrafi e un link; altre saranno abbastanza lunghe da aver avuto bisogno di un editor che non hanno avuto. Qualcuna si rivelerà sbagliata, e preferisco lasciarla lì con una correzione piuttosto che cancellarla in silenzio.
+Non è un sito di tutorial. Non è rifinito. Non ha un calendario. Certe voci saranno due paragrafi e un collegamento; altre saranno abbastanza lunghe da aver avuto bisogno di un editor che non hanno avuto. Qualcuna si rivelerà sbagliata, e preferisco lasciarla dov'è con una correzione piuttosto che cancellarla in silenzio.
 
-Se qui dentro c'è qualcosa che ti serve, prendilo. È a questo che servono gli oggetti smarriti.
+Se qui dentro c'è qualcosa che ti serve, prendilo. È a questo che serve un ufficio oggetti smarriti.
 
 ---
 
 ### Adiacenze
 
-Che cosa sta accanto a che cosa. La stessa idea di sopra, solo disegnata.
+Che cosa sta accanto a che cosa. La stessa idea di sopra, disegnata.
 
 {% include lf-graph.liquid full="true" %}
