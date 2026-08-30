@@ -19,4 +19,4 @@ The line this blog borrows is from stanza 8, where the figure first speaks:
 > Where everything misplaced on earth accrues,
 > And here all things are gathered that you lose.
 
-It gives loss a _place_ — not a void but an inventory, a lost and found with an address. That is the spatial half of the metaphor [[misplaced manifesto|the misplaced manifesto]] runs on. The temporal half — a search that cannot end — comes from [[Umberto Eco - The Search for the Perfect Language]].
+It gives loss a _place_ — not a void but an inventory, a lost and found with an address. That is the spatial half of the metaphor [[A misplaced manifesto|the misplaced manifesto]] runs on. The temporal half — a search that cannot end — comes from [[Umberto Eco - The Search for the Perfect Language]].

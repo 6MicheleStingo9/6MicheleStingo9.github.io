@@ -9,7 +9,7 @@ description: "The early Wittgenstein: language as a picture of the world, up to 
 
 Seven numbered propositions, each but the last branching into a decimal tree of sub-propositions, running from the world as the totality of facts out to the edge of what can be said. Its core is the _[picture theory](https://en.wikipedia.org/wiki/Picture_theory_of_language)_: a meaningful proposition is a picture of a possible fact, and it can depict the world only because the two share a logical form. Language mirrors reality; whatever can be said can be said in that exact form, and the rest is not false but nonsensical.
 
-This is the early, _symbolic_ Wittgenstein — and the ambition is a cousin of the perfect language of [[Umberto Eco - The Search for the Perfect Language]], and of every formal ontology since: a notation that lays the world out without remainder. It is the instinct behind "symbolic scaffolding" in [[misplaced manifesto|the misplaced manifesto]].
+This is the early, _symbolic_ Wittgenstein — and the ambition is a cousin of the perfect language of [[Umberto Eco - The Search for the Perfect Language]], and of every formal ontology since: a notation that lays the world out without remainder. It is the instinct behind "symbolic scaffolding" in [[A misplaced manifesto|the misplaced manifesto]].
 
 But the book draws its own limit. Where the logical form gives out, so does saying: you cannot state the ethical, the mystical, the sense of the world — you can only run up against the edge. The seventh proposition stands alone, unelaborated:
 
