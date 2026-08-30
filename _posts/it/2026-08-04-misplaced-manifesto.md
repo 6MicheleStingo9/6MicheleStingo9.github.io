@@ -37,13 +37,13 @@ Il filo che tiene insieme tutto questo è che i modelli linguistici sono più in
 
 Un sistema che ricordi, si coordini, pianifichi, torni sulle proprie conclusioni e sappia dire come ci è arrivato, invece, resta in gran parte un problema aperto. Per costruirlo servono insieme la macchina statistica e l'[[Ludwig Wittgenstein - Tractatus logico-philosophicus|impalcatura simbolica]] — e l'orecchio per riconoscere ciò su cui anche quest'ultima deve «tacere». I problemi interessanti si trovano nella linea di giunzione tra le due cose.
 
-Da quella cucitura arriveranno gli appunti: grafi e ontologie, ragionamenti che devono sopravvivere all'incontro con un sistema vero, resoconti di ingegneria nati costruendo agenti che devono essere affidabili prima ancora che appariscenti.
+E da quella giuntura arriveranno gli appunti: grafi e ontologie, ragionamenti che devono sopravvivere all'incontro con un sistema vero, resoconti di ingegneria nati costruendo agenti che devono essere affidabili prima ancora che appariscenti.
 
 ## Appunti per i curiosi e per chi si distrae facilmente
 
-Il sottotitolo non è civetteria. La distrazione è un metodo.
+Il sottotitolo non è autoironico. La distrazione è un metodo.
 
-L'idea utile non è quasi mai quella che si era usciti a cercare: le sta accanto, in una disciplina confinante, in una nota a piè di pagina, nello strumento che si è dovuto costruire per fare l'esperimento. Seguire quell'adiacenza è il modo in cui si trovano i legami che una linea retta attraverso il problema avrebbe mancato. È [[Merton & Barber - Viaggi e avventure della serendipity|serendipità]] in senso stretto: accidente _e_ sagacia, mai l'uno senza l'altra. Il prezzo è ritrovarsi fra le mani molto materiale sciolto e senza una collocazione evidente.
+L'idea utile non è quasi mai quella che si stava cercando: le sta accanto, in una disciplina confinante, in una nota a piè di pagina, nello strumento che si è dovuto costruire per sperimentare. Seguire quell'adiacenza è il modo in cui si trovano i legami che una linea retta attraverso il problema avrebbe mancato. È [[Merton & Barber - Viaggi e avventure della serendipity|serendipità]] in senso stretto: incidente _e_ sagacia, mai l'uno senza l'altra. Il prezzo è ritrovarsi fra le mani molto materiale sciolto e senza una collocazione evidente.
 
 Da qui l'ufficio oggetti smarriti.
 
@@ -57,6 +57,6 @@ Se qui dentro c'è qualcosa che ti serve, prendilo. È a questo che serve un uff
 
 ### Adiacenze
 
-Che cosa sta accanto a che cosa. La stessa idea di sopra, disegnata.
+Cosa sta accanto a cosa. Le stesse cose dette sopra, solo disegnate.
 
 {% include lf-graph.liquid full="true" %}
