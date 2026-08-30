@@ -135,6 +135,37 @@
               </button>
             </li>
           {% endif %}
+
+          {% comment %}
+            Language switch. Not a toggle like the theme button: the twin of
+            this page is a different document at a different URL, so this is a
+            link. Mirrored paths, so the twin's address is this one with /it
+            added or removed. Inert when the twin does not exist yet.
+          {% endcomment %}
+          {% if page.lang == 'it' %}
+            {% assign twin_url = page.url | remove_first: '/it' %}
+          {% else %}
+            {% assign twin_url = '/it' | append: page.url %}
+          {% endif %}
+          {% assign twin_exists = false %}
+          {% assign everything = site.documents | concat: site.pages %}
+          {% for doc in everything %}
+            {% if doc.url == twin_url %}
+              {% assign twin_exists = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          <li class="toggle-container">
+            {% if twin_exists %}
+              <a class="lang-toggle" href="{{ twin_url | relative_url }}" title="{{ site.data.lang[page.lang].nav.switch }}">
+                {{- site.data.lang[page.lang].nav.other_code -}}
+              </a>
+            {% else %}
+              <span class="lang-toggle disabled" title="{{ site.data.lang[page.lang].nav.unavailable }}">
+                {{- site.data.lang[page.lang].nav.other_code -}}
+              </span>
+            {% endif %}
+          </li>
         </ul>
       </div>
     </div>

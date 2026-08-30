@@ -178,6 +178,43 @@
   }
 }
 
+/* Language switch. Same footprint as the theme button so the navbar does not
+   shift, and visibly inert when the page has no twin in the other language. */
+.lang-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration: none;
+  }
+
+  &.disabled {
+    opacity: 0.35;
+    cursor: default;
+
+    &:hover {
+      color: var(--global-text-color);
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .lang-toggle {
+    transform: translateY(4px);
+  }
+}
+
 #search-toggle {
   padding: 0;
   border: 0;

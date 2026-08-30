@@ -6,6 +6,9 @@ nav:
   toggle: Toggle navigation
   search: Search
   theme: Change theme
+  other_code: IT
+  switch: Read this page in Italian
+  unavailable: Not available in Italian yet
 
 post:
   created_on: Created on

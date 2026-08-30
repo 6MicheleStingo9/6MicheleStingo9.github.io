@@ -6,6 +6,9 @@ nav:
   toggle: Apri la navigazione
   search: Cerca
   theme: Cambia tema
+  other_code: EN
+  switch: Leggi questa pagina in inglese
+  unavailable: Non ancora disponibile in inglese
 
 post:
   created_on: Scritto il
