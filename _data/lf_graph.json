@@ -169,10 +169,10 @@
       "url": "https://en.wikipedia.org/wiki/Language_game_(philosophy)"
     },
     {
-      "id": "https://en.wikipedia.org/wiki/Form_of_life_(philosophy)",
+      "id": "https://en.wikipedia.org/wiki/Form_of_life",
       "label": "form of life",
       "type": "external",
-      "url": "https://en.wikipedia.org/wiki/Form_of_life_(philosophy)"
+      "url": "https://en.wikipedia.org/wiki/Form_of_life"
     },
     {
       "id": "https://en.wikipedia.org/wiki/Family_resemblance",
@@ -316,7 +316,7 @@
     },
     {
       "source": "/notes/wittgenstein-philosophical-investigations/",
-      "target": "https://en.wikipedia.org/wiki/Form_of_life_(philosophy)"
+      "target": "https://en.wikipedia.org/wiki/Form_of_life"
     },
     {
       "source": "/notes/wittgenstein-philosophical-investigations/",

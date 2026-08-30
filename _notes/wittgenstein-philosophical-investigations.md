@@ -7,7 +7,7 @@ description: "The later Wittgenstein: meaning is use, worked out in language-gam
 
 **[Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein), _[Philosophical Investigations](https://en.wikipedia.org/wiki/Philosophical_Investigations)_** — first published posthumously as _Philosophische Untersuchungen_, Oxford: Basil Blackwell, 1953 (bilingual German–English, trans. G.E.M. Anscombe; Part I largely complete by 1945).
 
-The later Wittgenstein turns on the earlier one. There is no more picture, no single logical form underwriting sense. Meaning is not a thing a word points at; it is what the word does. Language is a motley of _[language-games](<https://en.wikipedia.org/wiki/Language_game_(philosophy)>)_ — ordering, joking, thanking, counting, praying — each with its own rules, each learned by playing, all embedded in a _[form of life](<https://en.wikipedia.org/wiki/Form_of_life_(philosophy)>)_. Words have no essences, only overlapping _[family resemblances](https://en.wikipedia.org/wiki/Family_resemblance)\_. The famous compression, §43:
+The later Wittgenstein turns on the earlier one. There is no more picture, no single logical form underwriting sense. Meaning is not a thing a word points at; it is what the word does. Language is a motley of _[language-games](<https://en.wikipedia.org/wiki/Language_game_(philosophy)>)_ — ordering, joking, thanking, counting, praying — each with its own rules, each learned by playing, all embedded in a _[form of life](https://en.wikipedia.org/wiki/Form_of_life)_. Words have no essences, only overlapping _[family resemblances](https://en.wikipedia.org/wiki/Family_resemblance)\_. The famous compression, §43:
 
 > …the meaning of a word is its use in the language.
 
