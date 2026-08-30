@@ -20,6 +20,9 @@ related:
   intro: "Altri che potrebbero interessarti:"
   subscribe: "Iscriviti per essere avvisato dei prossimi articoli:"
 
+blog:
+  description: appunti per i curiosi e per chi si distrae facilmente
+
 common:
   references: Riferimenti
   contents: Indice

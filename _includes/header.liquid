@@ -154,15 +154,21 @@
             link. Mirrored paths, so the twin's address is this one with /it
             added or removed. Inert when the twin does not exist yet.
           {% endcomment %}
+          {% comment %}
+            Paginated pages report a URL ending in index.html, so both sides of
+            the comparison are normalised before matching.
+          {% endcomment %}
+          {% assign here = page.url | remove: 'index.html' %}
           {% if page.lang == 'it' %}
-            {% assign twin_url = page.url | remove_first: '/it' %}
+            {% assign twin_url = here | remove_first: '/it' %}
           {% else %}
-            {% assign twin_url = '/it' | append: page.url %}
+            {% assign twin_url = '/it' | append: here %}
           {% endif %}
           {% assign twin_exists = false %}
           {% assign everything = site.documents | concat: site.pages %}
           {% for doc in everything %}
-            {% if doc.url == twin_url %}
+            {% assign doc_url = doc.url | remove: 'index.html' %}
+            {% if doc_url == twin_url %}
               {% assign twin_exists = true %}
               {% break %}
             {% endif %}

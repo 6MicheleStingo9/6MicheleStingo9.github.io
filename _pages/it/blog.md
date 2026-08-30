@@ -1,7 +1,7 @@
 ---
 layout: default
-lang: en
-permalink: /blog/
+lang: it
+permalink: /it/blog/
 title: blog
 nav: true
 nav_order: 1
@@ -11,8 +11,8 @@ nav_order: 1
 pagination:
   enabled: true
   collection: posts
-  locale: en
-  permalink: /page/:num/
+  locale: it
+  permalink: /it/page/:num/
   per_page: 5
   sort_field: date
   sort_reverse: true

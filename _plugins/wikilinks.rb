@@ -5,10 +5,17 @@
 #   [[Target|label]]   "label" is shown instead
 #
 # A target is resolved against the titles and slugs of everything the site
-# publishes. When it resolves, the wikilink becomes a real link. When it does
-# not — because the note lives in the vault and was never published — the label
-# is kept as plain text and the target is preserved as a tooltip, so the
-# reference survives instead of silently disappearing.
+# publishes in the same language as the document being rendered. When it
+# resolves, the wikilink becomes a real link. When it does not — because the
+# note lives in the vault and was never published, or has not been translated
+# yet — the label is kept as plain text and the target is preserved as a
+# tooltip, so the reference survives instead of silently disappearing.
+#
+# Indexes are kept one per language on purpose. Mirrored paths mean an Italian
+# note carries the same slug as its English twin, so a single flat index would
+# have one overwrite the other. And a link is never allowed to cross languages:
+# sending an Italian reader to an English note without saying so is exactly the
+# silent substitution this plugin exists to avoid.
 
 require "cgi"
 
@@ -18,16 +25,17 @@ module WikiLinks
   # Titles and filename slugs both work as targets, so a note can be referenced
   # the way Obsidian does it (by filename) or by the title in its frontmatter.
   def self.build_index(site)
-    index = {}
+    index = Hash.new { |h, k| h[k] = {} }
     (site.documents + site.pages).each do |doc|
       next if doc.url.nil? || doc.url.empty?
+      lang = (doc.data["lang"] || site.config["lang"] || "en").to_s
       title = doc.data["title"]
       # Documents expose basename_without_ext, pages only basename.
       raw = doc.respond_to?(:basename_without_ext) ? doc.basename_without_ext : doc.basename
       slug = raw.to_s.sub(/\A\d{4}-\d{2}-\d{2}-/, "")
       [title, slug].compact.each do |key|
         key = key.to_s.strip.downcase
-        index[key] = doc.url unless key.empty?
+        index[lang][key] = doc.url unless key.empty?
       end
     end
     index
@@ -54,6 +62,8 @@ end
 
 Jekyll::Hooks.register [:documents, :pages], :pre_render do |doc|
   next unless doc.content.is_a?(String) && doc.content.include?("[[")
-  index = doc.site.config["wikilink_index"] || {}
+  site = doc.site
+  lang = (doc.data["lang"] || site.config["lang"] || "en").to_s
+  index = (site.config["wikilink_index"] || {})[lang] || {}
   doc.content = WikiLinks.render(doc.content, index)
 end

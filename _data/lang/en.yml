@@ -20,6 +20,9 @@ related:
   intro: "Here are some more articles you might like to read next:"
   subscribe: "Subscribe to be notified of future articles:"
 
+blog:
+  description: notes for the curious and the easily distracted
+
 common:
   references: References
   contents: Contents

@@ -234,22 +234,29 @@ defaults:
       path: ""
     values:
       lang: en
+      # Duplicate of lang under the name jekyll-paginate-v2 looks for when
+      # filtering a paginated index by language.
+      locale: en
   - scope:
       path: "_pages/it"
     values:
       lang: it
+      locale: it
   - scope:
       path: "_posts/it"
     values:
       lang: it
+      locale: it
   - scope:
       path: "_news/it"
     values:
       lang: it
+      locale: it
   - scope:
       path: "_notes/it"
     values:
       lang: it
+      locale: it
 
 sass:
   style: compressed
