@@ -227,6 +227,29 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  # Language of every document, assigned by path. Italian content lives under
+  # an "it" folder inside its collection; everything else is English. Keeping
+  # this here means no content file has to declare its own language.
+  - scope:
+      path: ""
+    values:
+      lang: en
+  - scope:
+      path: "_pages/it"
+    values:
+      lang: it
+  - scope:
+      path: "_posts/it"
+    values:
+      lang: it
+  - scope:
+      path: "_news/it"
+    values:
+      lang: it
+  - scope:
+      path: "_notes/it"
+    values:
+      lang: it
 
 sass:
   style: compressed
