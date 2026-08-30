@@ -1,6 +1,7 @@
 <div class="news">
   {% if page.latest_posts != blank %}
-    {% assign latest_posts_size = site.posts | size %}
+    {% assign lang_posts = site.posts | where: 'lang', page.lang %}
+    {% assign latest_posts_size = lang_posts | size %}
     <div
       class="table-responsive"
       {% if page.latest_posts.scrollable and latest_posts_size > 3 %}
@@ -8,7 +9,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign latest_posts = site.posts %}
+        {% assign latest_posts = lang_posts %}
         {% if page.latest_posts.limit %}
           {% assign latest_posts_limit = page.latest_posts.limit %}
         {% else %}
