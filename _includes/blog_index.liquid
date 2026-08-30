@@ -121,7 +121,7 @@
         <p>{{ post.description }}</p>
         <p class="post-meta">
           {{ read_time }} min read &nbsp; &middot; &nbsp;
-          {{ post.date | date: '%B %d, %Y' }}
+          {% include date.liquid date=post.date %}
           {% if post.external_source %}
             &nbsp; &middot; &nbsp; {{ post.external_source }}
           {% endif %}

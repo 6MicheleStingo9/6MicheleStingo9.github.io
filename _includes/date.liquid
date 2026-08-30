@@ -1,0 +1,27 @@
+{% comment %}
+  Renders a date in the language of the page.
+
+    {% include date.liquid date=page.date %}          19 August 2026 / 19 agosto 2026
+    {% include date.liquid date=item.date short=true %}   19 Aug 2026 / 19 ago 2026
+
+  Ruby's strftime only knows English month names, so the name is taken from
+  _data/lang and the parts are put together here. English keeps its own order
+  and comma; Italian is day, month, year with nothing between.
+{% endcomment %}
+{%- assign l = site.data.lang[page.lang] -%}
+{%- assign mi = include.date | date: '%-m' | minus: 1 -%}
+{%- if include.short -%}
+  {%- assign month = l.months_short[mi] -%}
+{%- else -%}
+  {%- assign month = l.months_long[mi] -%}
+{%- endif -%}
+{%- assign y = include.date | date: '%Y' -%}
+{%- if page.lang == 'it' -%}
+  {%- comment -%}Italian does not pad the day.{%- endcomment -%}
+  {{ include.date | date: '%-d' }}
+  {{ month }}
+  {{ y }}
+{%- else -%}
+  {{ month }}
+  {{ include.date | date: '%d' }}, {{ y }}
+{%- endif -%}

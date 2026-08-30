@@ -18,7 +18,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       {{ site.data.lang[page.lang].post.created_on }}
-      {{ page.date | date: '%B %d, %Y' }}
+      {% include date.liquid date=page.date %}
       {% if page.author -%}
         {{- site.data.lang[page.lang].post.by }}
         {{ page.author -}}
@@ -26,7 +26,7 @@ layout: default
       {% assign last_date = page.last_modified_at | default: page.last_updated %}
       {% if last_date -%}
         , {{ site.data.lang[page.lang].post.last_updated_on }}
-        {{ last_date | date: '%B %d, %Y' -}}
+        {% include date.liquid date=last_date -%}
       {%- endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
