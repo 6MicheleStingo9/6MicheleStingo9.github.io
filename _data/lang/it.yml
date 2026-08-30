@@ -1,0 +1,45 @@
+# Stringhe dell'interfaccia. Le chiavi dicono a cosa serve la stringa, non cosa
+# dice. Lette come site.data.lang[page.lang].gruppo.chiave — page.lang è
+# garantito dalle regole defaults in _config.yml.
+
+nav:
+  toggle: Apri la navigazione
+  search: Cerca
+  theme: Cambia tema
+
+post:
+  created_on: Scritto il
+  by: da
+  last_updated_on: aggiornato il
+
+related:
+  heading: Ti è piaciuto questo articolo?
+  intro: "Altri che potrebbero interessarti:"
+  subscribe: "Iscriviti per essere avvisato dei prossimi articoli:"
+
+common:
+  references: Riferimenti
+  contents: Indice
+  impressum: Note legali
+
+# Intestazioni delle sezioni del CV. Attenzione: qui "references" sono le
+# referenze, parola diversa dai riferimenti bibliografici qui sopra.
+cv:
+  contact_information: Contatti
+  name: Nome
+  professional_title: Qualifica
+  email: Email
+  phone: Telefono
+  location: Sede
+  website: Sito
+  professional_summary: Profilo
+  experience: Esperienza
+  education: Formazione
+  awards: Riconoscimenti
+  publications: Pubblicazioni
+  skills: Competenze
+  languages: Lingue
+  interests: Interessi
+  certificates: Certificazioni
+  projects: Progetti
+  references: Referenze

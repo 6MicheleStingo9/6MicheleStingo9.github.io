@@ -1,0 +1,45 @@
+# Interface strings. Keys name what the string is for, not what it says.
+# Looked up as site.data.lang[page.lang].group.key — page.lang is guaranteed
+# by the defaults rules in _config.yml.
+
+nav:
+  toggle: Toggle navigation
+  search: Search
+  theme: Change theme
+
+post:
+  created_on: Created on
+  by: by
+  last_updated_on: last updated on
+
+related:
+  heading: Enjoy Reading This Article?
+  intro: "Here are some more articles you might like to read next:"
+  subscribe: "Subscribe to be notified of future articles:"
+
+common:
+  references: References
+  contents: Contents
+  impressum: Impressum
+
+# Section headings of the CV page. Note that "references" here means referees,
+# which is a different word from the bibliography one above.
+cv:
+  contact_information: Contact Information
+  name: Name
+  professional_title: Professional Title
+  email: Email
+  phone: Phone
+  location: Location
+  website: Website
+  professional_summary: Professional Summary
+  experience: Experience
+  education: Education
+  awards: Awards
+  publications: Publications
+  skills: Skills
+  languages: Languages
+  interests: Interests
+  certificates: Certificates
+  projects: Projects
+  references: References
