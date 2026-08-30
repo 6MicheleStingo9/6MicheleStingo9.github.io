@@ -52,7 +52,7 @@
       "id": "https://en.wikipedia.org/wiki/Adamic_language",
       "label": "lingua di Adamo",
       "type": "external",
-      "url": "https://it.wikipedia.org/wiki/Lingua_adamitica"
+      "url": "https://it.wikipedia.org/wiki/Lingua_primigenia"
     },
     {
       "id": "https://en.wikipedia.org/wiki/Cratylus_(dialogue)",
@@ -82,7 +82,7 @@
       "id": "https://en.wikipedia.org/wiki/Robert_K._Merton",
       "label": "Robert K. Merton",
       "type": "external",
-      "url": "https://it.wikipedia.org/wiki/Robert_King_Merton"
+      "url": "https://it.wikipedia.org/wiki/Robert_K._Merton"
     },
     {
       "id": "https://press.princeton.edu/books/paperback/9780691126302/the-travels-and-adventures-of-serendipity",
@@ -112,7 +112,7 @@
       "id": "https://en.wikipedia.org/wiki/A._E._Stallings",
       "label": "A.E. Stallings",
       "type": "external",
-      "url": "https://it.wikipedia.org/wiki/Alicia_Stallings"
+      "url": "https://it.wikipedia.org/wiki/A._E._Stallings"
     },
     {
       "id": "https://www.bpj.org/issues/v63n3",
@@ -142,7 +142,7 @@
       "id": "https://en.wikipedia.org/wiki/Astolfo",
       "label": "Astolfo",
       "type": "external",
-      "url": "https://it.wikipedia.org/wiki/Astolfo"
+      "url": "https://it.wikipedia.org/wiki/Astolfo_(personaggio)"
     },
     {
       "id": "https://en.wikipedia.org/wiki/Mnemosyne",
@@ -166,7 +166,7 @@
       "id": "https://en.wikipedia.org/wiki/Language_game_(philosophy)",
       "label": "giochi linguistici",
       "type": "external",
-      "url": "https://it.wikipedia.org/wiki/Gioco_linguistico"
+      "url": "https://it.wikipedia.org/wiki/Teoria_dei_giochi_linguistici"
     },
     {
       "id": "https://en.wikipedia.org/wiki/Form_of_life_(philosophy)",
@@ -178,7 +178,7 @@
       "id": "https://en.wikipedia.org/wiki/Family_resemblance",
       "label": "somiglianze di famiglia",
       "type": "external",
-      "url": "https://it.wikipedia.org/wiki/Somiglianza_di_famiglia"
+      "url": "https://en.wikipedia.org/wiki/Family_resemblance"
     },
     {
       "id": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus",
@@ -190,7 +190,7 @@
       "id": "https://en.wikipedia.org/wiki/Picture_theory_of_language",
       "label": "teoria raffigurativa",
       "type": "external",
-      "url": "https://it.wikipedia.org/wiki/Teoria_raffigurativa_del_linguaggio"
+      "url": "https://en.wikipedia.org/wiki/Picture_theory_of_language"
     }
   ],
   "links": [

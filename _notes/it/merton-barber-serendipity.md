@@ -5,7 +5,7 @@ permalink: /it/notes/merton-barber-serendipity/
 description: "Merton e Barber seguono una parola: serendipità è l'accidente più la sagacia di riconoscerlo."
 ---
 
-**[Robert K. Merton](https://it.wikipedia.org/wiki/Robert_King_Merton) ed Elinor Barber, _Viaggi e avventure della serendipity_** — scritto nel 1958, uscito per la prima volta in italiano a Bologna, il Mulino, 2002; l'edizione inglese, _The Travels and Adventures of Serendipity_, arriva solo due anni dopo, [Princeton University Press, 2004](https://press.princeton.edu/books/paperback/9780691126302/the-travels-and-adventures-of-serendipity).
+**[Robert K. Merton](https://it.wikipedia.org/wiki/Robert_K._Merton) ed Elinor Barber, _Viaggi e avventure della serendipity_** — scritto nel 1958, uscito per la prima volta in italiano a Bologna, il Mulino, 2002; l'edizione inglese, _The Travels and Adventures of Serendipity_, arriva solo due anni dopo, [Princeton University Press, 2004](https://press.princeton.edu/books/paperback/9780691126302/the-travels-and-adventures-of-serendipity).
 
 È la biografia di una parola. Merton e Barber seguono [_serendipity_](https://it.wikipedia.org/wiki/Serendipit%C3%A0) dal momento in cui viene coniata — [Horace Walpole](https://it.wikipedia.org/wiki/Horace_Walpole), in una lettera del 1754, la ricava dalla fiaba dei [tre principi di Serendippo](https://it.wikipedia.org/wiki/Peregrinaggio_di_tre_giovani_figliuoli_del_re_di_Serendippo), che facevano continuamente scoperte, per caso e per sagacia, di cose che non andavano cercando — e la seguono mentre attraversa due secoli ed entra nelle scienze, cambiando di mano e di senso lungo la strada. È quella che i due chiamano _semantica sociologica_: non che cosa una parola significhi, ma come viaggia.
 
