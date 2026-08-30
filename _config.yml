@@ -247,6 +247,9 @@ defaults:
     values:
       lang: it
       locale: it
+      # Posts take their address from the site-wide permalink, which has no
+      # language in it; the Italian ones need their own.
+      permalink: /it/blog/:year/:title/
   - scope:
       path: "_news/it"
     values:

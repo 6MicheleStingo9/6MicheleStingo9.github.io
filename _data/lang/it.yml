@@ -21,12 +21,22 @@ related:
   subscribe: "Iscriviti per essere avvisato dei prossimi articoli:"
 
 blog:
+  name: Oggetti Smarriti
   description: appunti per i curiosi e per chi si distrae facilmente
 
 # Nomi dei mesi, per comporre le date: strftime di Ruby conosce solo l'inglese,
 # quindi il nome si cerca qui e i pezzi si assemblano nell'include della data.
 months_long: [gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre]
 months_short: [gen, feb, mar, apr, mag, giu, lug, ago, set, ott, nov, dic]
+
+graph:
+  sources: fonti
+  fit: adatta
+  hint: "rotella = zoom · trascina lo sfondo = sposta · trascina un nodo per muoverlo"
+  full_map: apri la mappa intera ↗
+  manifesto: manifesto
+  note: nota
+  source: fonte
 
 common:
   references: Riferimenti

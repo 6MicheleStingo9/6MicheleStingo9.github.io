@@ -21,12 +21,22 @@ related:
   subscribe: "Subscribe to be notified of future articles:"
 
 blog:
+  name: Lost&Found
   description: notes for the curious and the easily distracted
 
 # Month names, used to build dates: Ruby's strftime only knows English, so the
 # name is looked up here and the pieces are assembled in the date include.
 months_long: [January, February, March, April, May, June, July, August, September, October, November, December]
 months_short: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+
+graph:
+  sources: sources
+  fit: fit
+  hint: "scroll = zoom · drag background = pan · drag a node to move it"
+  full_map: open full map ↗
+  manifesto: manifesto
+  note: note
+  source: source
 
 common:
   references: References

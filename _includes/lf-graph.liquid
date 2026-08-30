@@ -2,7 +2,8 @@
   Lost & Found interactive graph. Params:
     sources: "on" to reveal external-source nodes by default (default: off)
     full:    any truthy value to show an "open full map" link to /notes/map/
-  Data comes from _data/lf_graph.json (regenerate when the notes change).
+  Data comes from _data/lf_graph.json, or lf_graph_it.json on Italian pages
+  (regenerate either when the notes change).
 {% endcomment %}
 <div class="lf-graph" id="lf-graph" data-baseurl="{{ site.baseurl }}" data-sources="{{ include.sources | default: 'off' }}">
   <div class="lf-controls">
@@ -14,23 +15,27 @@
           checked
         {% endif %}
       >
-      sources</label
-    >
-    <button type="button" class="lf-btn lf-fit">fit</button>
-    <span class="lf-hint">scroll = zoom · drag background = pan · drag a node to move it</span>
+      {{ site.data.lang[page.lang].graph.sources -}}
+    </label>
+    <button type="button" class="lf-btn lf-fit">{{ site.data.lang[page.lang].graph.fit }}</button>
+    <span class="lf-hint">{{ site.data.lang[page.lang].graph.hint }}</span>
+    {% assign map_url = '/notes/map/' %}
+    {% if page.lang == 'it' %}{% assign map_url = '/it/notes/map/' %}{% endif %}
     {% if include.full -%}
-      <a class="lf-full" href="{{ '/notes/map/' | relative_url }}">open full map ↗</a>
+      <a class="lf-full" href="{{ map_url | relative_url }}">{{ site.data.lang[page.lang].graph.full_map }}</a>
     {%- endif %}
   </div>
   <div class="lf-legend">
-    <span><i style="background: #eab308"></i>manifesto</span>
-    <span><i style="background: #3b82c4"></i>note</span>
-    <span><i style="background: #9aa0a6"></i>source</span>
+    <span><i style="background: #eab308"></i>{{ site.data.lang[page.lang].graph.manifesto }}</span>
+    <span><i style="background: #3b82c4"></i>{{ site.data.lang[page.lang].graph.note }}</span>
+    <span><i style="background: #9aa0a6"></i>{{ site.data.lang[page.lang].graph.source }}</span>
   </div>
 </div>
 
 <script type="application/json" id="lf-graph-data">
-  {{ site.data.lf_graph | jsonify }}
+  {% assign graph_data = site.data.lf_graph %}
+  {% if page.lang == 'it' and site.data.lf_graph_it %}{% assign graph_data = site.data.lf_graph_it %}{% endif %}
+  {{ graph_data | jsonify }}
 </script>
 <script defer src="{{ '/assets/js/lf-graph.js' | relative_url }}"></script>
 
