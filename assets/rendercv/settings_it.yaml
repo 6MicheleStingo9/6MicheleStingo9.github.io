@@ -1,0 +1,22 @@
+# Le impostazioni del CV italiano. Gemello di settings.yaml, da cui differisce
+# per una cosa sola: il suffisso _IT nei nomi dei file, senza il quale i due
+# render si sovrascriverebbero a vicenda, perché RenderCV compone il nome dal
+# campo `name` e nei due CV è lo stesso.
+# La lingua NON si dichiara qui: `render_command.locale` viene validato e poi
+# ignorato da RenderCV 2.8. Sta dentro _data/cv_it.yml.
+# for details on settings, see https://docs.rendercv.com/user_guide/yaml_input_structure/settings/
+settings:
+  render_command:
+    # Paths must be relative to _data/cv.yaml
+    design: ../assets/rendercv/design.yaml
+    typst_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV_IT.typ
+    pdf_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV_IT.pdf
+    markdown_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV_IT.md
+    html_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV_IT.html
+    png_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV_IT.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false # typst generation is required for pdf output
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
