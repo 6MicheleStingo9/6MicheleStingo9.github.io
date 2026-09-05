@@ -14,7 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      # See CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
+      # A personal access token here would let the commit this workflow makes trigger
+      # the deploy workflow in turn; the default GITHUB_TOKEN deliberately does not.
       #        with:
       #          token: ${{ secrets.PAT }}
 
