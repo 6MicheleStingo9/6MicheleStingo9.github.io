@@ -43,7 +43,14 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        {%- comment -%}
+          These three headings link out of the home page, and two of the three
+          targets exist in both languages: an Italian home that sends the reader
+          to the English blog is the bug this fixes. /publications/ has no
+          Italian twin -- the papers are not translated -- so it stays as it is.
+        {%- endcomment -%}
+        {% if page.lang == 'it' %}{% assign lang_prefix = '/it' %}{% else %}{% assign lang_prefix = '' %}{% endif %}
+        <a href="{{ lang_prefix | append: '/news/' | relative_url }}" style="color: inherit">{{ site.data.lang[page.lang].about.news }}</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -51,7 +58,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ lang_prefix | append: '/blog/' | relative_url }}" style="color: inherit">{{ site.data.lang[page.lang].about.latest_posts }}</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -59,7 +66,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data.lang[page.lang].about.selected_publications }}</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -67,9 +74,23 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        {%- comment -%}
+          The RSS icon and the avatar sit outside {% social_links %} on purpose.
+          jekyll-socials holds one value per key for the whole site, so its
+          rss_icon would point every language at /feed.xml; there are two feeds.
+          And the avatar is no longer a link at all, which the plugin cannot
+          render. Keeping them here also fixes the order: orcid and scholar stay
+          adjacent, the feed follows them, the avatar closes the row.
+        {%- endcomment -%}
+        {%- assign strings = site.data.lang[page.lang].about -%}
+        {%- if page.lang == 'it' %}{% assign feed_url = '/it/feed.xml' %}{% else %}{% assign feed_url = '/feed.xml' %}{% endif -%}
+        <div class="contact-icons">
+          {% social_links %}
+          <a href="{{ feed_url | relative_url }}" title="{{ strings.rss }}" type="application/atom+xml"><i class="fa-solid fa-rss"></i></a>
+          <img src="{{ '/assets/img/avatar_pic.png' | relative_url }}" alt="{{ strings.avatar_alt }}">
+        </div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="contact-note">{{ site.data.lang[page.lang].about.contact_note | default: site.contact_note }}</div>
       </div>
     {% endif %}
 

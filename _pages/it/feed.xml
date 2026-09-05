@@ -1,0 +1,11 @@
+---
+layout: none
+permalink: /it/feed.xml
+lang: it
+sitemap: false
+---
+{%- comment -%}
+  The Italian half of the pair. Its English twin is feed.xml at the repository
+  root, where jekyll-feed is forced to look; see the comment there.
+{%- endcomment -%}
+{%- include feed.liquid -%}

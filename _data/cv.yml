@@ -1,6 +1,6 @@
 cv:
   name: "Michele Stingo"
-  label: "Senior Research and Development Scientist"
+  headline: "Senior Research and Development Scientist"
   email: "stingomichele@gmail.com"
   location: Rome, Italy
   phone: (+39) 3888930698
@@ -13,9 +13,10 @@ cv:
     - placeholder: "Google Scholar"
       url: "https://scholar.google.com/citations?user=8O5RRAMAAAAJ&hl=it&oi=ao"
       fontawesome_icon: "graduation-cap"
-  summary: Ph.D. in Computational Linguistics specialized in Natural Language Processing, Large Language Models, and intelligent multi-agent systems. My research focuses on cognitive agents, orchestration architectures, and knowledge representation through ontologies and graph-based representations, integrating structured knowledge with LLMs to support more reliable reasoning and decision-making. I work extensively with frameworks such as LangGraph and LangChain, and I actively explore open-source ecosystems including Hugging Face and Ollama for the development of scalable LLM-based applications. My expertise also includes advanced prompt engineering, agent coordination, and the design of structured AI systems capable of complex reasoning, planning, and inter-agent communication.
 
   sections:
+    Summary:
+      - Ph.D. in Computational Linguistics specialized in Natural Language Processing, Large Language Models, and intelligent multi-agent systems. My research focuses on cognitive agents, orchestration architectures, and knowledge representation through ontologies and graph-based representations, integrating structured knowledge with LLMs to support more reliable reasoning and decision-making. I work extensively with frameworks such as LangGraph and LangChain, and I actively explore open-source ecosystems including Hugging Face and Ollama for the development of scalable LLM-based applications. My expertise also includes advanced prompt engineering, agent coordination, and the design of structured AI systems capable of complex reasoning, planning, and inter-agent communication.
     Experience:
       - company: "Activa Digital"
         position: "Senior Research and Development Scientist"

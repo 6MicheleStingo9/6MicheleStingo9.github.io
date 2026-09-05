@@ -20,6 +20,17 @@ related:
   intro: "Here are some more articles you might like to read next:"
   subscribe: "Subscribe to be notified of future articles:"
 
+# The note under the social icons on the about page. Only email and LinkedIn are
+# ways of reaching me; the other icons are profiles and files, not inboxes, so
+# the note names the two and says nothing about the rest.
+about:
+  contact_note: Email or LinkedIn — I answer quickly on both.
+  news: "news"
+  latest_posts: "latest posts"
+  selected_publications: "selected publications"
+  rss: "Lost&Found — RSS feed"
+  avatar_alt: "Michele Stingo"
+
 blog:
   name: Lost&Found
   description: notes for the curious and the easily distracted
@@ -46,6 +57,22 @@ common:
 # Section headings of the CV page. Note that "references" here means referees,
 # which is a different word from the bibliography one above.
 cv:
+  section_keys:
+    summary: Summary
+    experience: Experience
+    volunteer: Volunteer
+    education: Education
+    awards: Awards
+    awards_alt: Honors and Awards
+    publications: Publications
+    skills: Skills
+    languages: Languages
+    interests: Interests
+    interests_alt: Academic Interests
+    certificates: Certificates
+    projects: Projects
+    projects_alt: Open Source Projects
+    references: References
   contact_information: Contact Information
   name: Name
   professional_title: Professional Title
@@ -54,6 +81,7 @@ cv:
   location: Location
   website: Website
   professional_summary: Professional Summary
+  present: Present
   experience: Experience
   education: Education
   awards: Awards

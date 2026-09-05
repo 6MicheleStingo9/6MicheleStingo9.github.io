@@ -1,0 +1,261 @@
+# Il CV italiano. Non è una traduzione applicata al volo su _data/cv.yml: è un
+# secondo file con la stessa forma, perché RenderCV compone il PDF dalle chiavi
+# di questo file e i nomi delle sezioni finiscono nelle intestazioni del PDF.
+# I nomi delle sezioni sono dichiarati anche in _data/lang/it.yml, sotto
+# cv.section_keys, perché _layouts/cv.liquid li usa per scegliere come rendere
+# ciascuna sezione.
+#
+# Restano in inglese di proposito: le pubblicazioni (i titoli dei paper e gli
+# editori sono quelli veri), la qualifica in Activa Digital (è il titolo che
+# Michele ricopre) e i termini tecnici nelle competenze.
+cv:
+  name: "Michele Stingo"
+  headline: "Senior Research and Development Scientist"
+  email: "stingomichele@gmail.com"
+  location: Roma, Italia
+  phone: (+39) 3888930698
+  social_networks:
+    - network: "LinkedIn"
+      username: michele-stingo
+    - network: GitHub
+      username: 6MicheleStingo9
+  custom_connections:
+    - placeholder: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=8O5RRAMAAAAJ&hl=it&oi=ao"
+      fontawesome_icon: "graduation-cap"
+
+  sections:
+    Profilo:
+      - Dottore di ricerca in linguistica computazionale, specializzato in elaborazione del linguaggio naturale, modelli linguistici di grandi dimensioni e sistemi multi-agente intelligenti. La mia ricerca riguarda gli agenti cognitivi, le architetture di orchestrazione e la rappresentazione della conoscenza attraverso ontologie e grafi, con l'obiettivo di integrare la conoscenza strutturata con gli LLM per ottenere ragionamenti e decisioni più affidabili. Lavoro abitualmente con framework come LangGraph e LangChain e seguo da vicino gli ecosistemi open source, fra cui Hugging Face e Ollama, per lo sviluppo di applicazioni scalabili basate su LLM. Mi occupo inoltre di prompt engineering avanzato, coordinamento fra agenti e progettazione di sistemi di intelligenza artificiale strutturati, capaci di ragionamento complesso, pianificazione e comunicazione fra agenti.
+    Esperienza:
+      - company: "Activa Digital"
+        position: "Senior Research and Development Scientist"
+        location: "Roma, Italia"
+        start_date: "2023-09"
+        end_date: "present"
+        summary: "Come Senior Research and Development Scientist mi occupo della progettazione di agenti cognitivi e di architetture multi-agente per applicazioni avanzate di intelligenza artificiale. Il mio lavoro tiene insieme orchestrazione di LLM, rappresentazione della conoscenza e ragionamento strutturato, con particolare attenzione all'integrazione di conoscenza a grafo e agli approcci simbolico-subsimbolici dentro i sistemi intelligenti. Contribuisco inoltre alla pianificazione della ricerca, al disegno sperimentale e alle attività di ricerca e sviluppo orientate all'innovazione."
+        highlights:
+          - "Coordinamento del gruppo di ricerca e sviluppo, con partecipazione alla
+            richiesta di finanziamenti e al disegno sperimentale."
+          - "Sviluppo di agenti cognitivi e sistemi multi-agente con i framework
+            LangGraph e LangChain."
+          - "Progettazione di schemi di orchestrazione e coordinamento per architetture
+            basate su LLM, per abilitare ragionamento complesso, pianificazione e
+            comunicazione fra agenti."
+          - "Uso di strumenti come Protégé e Neo4j per la rappresentazione della
+            conoscenza e l'integrazione simbolico-subsimbolica."
+          - "Integrazione di ontologie e rappresentazioni a grafo per migliorare le
+            capacità di ragionamento e i processi decisionali dei sistemi di
+            intelligenza artificiale."
+
+      - company: "Luo"
+        position: "Linguista computazionale, analista software e sviluppatore front-end"
+        location: "Roma, Italia"
+        start_date: "2017-08"
+        end_date: "2023-09"
+        summary: "In Luo ho lavorato fra linguistica computazionale, analisi software e sviluppo front-end, contribuendo sia alla ricerca orientata all'NLP sia allo sviluppo applicativo. Il ruolo comprendeva la creazione di risorse linguistiche, la valutazione di pipeline di NLP, l'ingegneria ontologica e lo sviluppo di soluzioni mobili e web."
+        highlights:
+          - "Sviluppo di applicazioni mobili con Flutter e di applicazioni web con Angular."
+          - "Sviluppo e gestione di risorse ontologiche in OWL, XML e JSON."
+          - "Valutazione di strumenti di NLP quali lemmatizzatori, POS tagger e parser
+            sintattici, e creazione di corpora linguistici e dizionari elettronici."
+
+      - company: "Università degli Studi di Salerno"
+        position: "Dottorando di ricerca e assistente alla didattica"
+        location: "Salerno, Italia"
+        start_date: "2016-10"
+        end_date: "2020-03"
+        summary: "Come dottorando di ricerca e assistente alla didattica ho svolto attività di ricerca in linguistica computazionale ed elaborazione del linguaggio naturale, affiancandole al supporto alla didattica e alla supervisione degli studenti. Il lavoro era rivolto al miglioramento delle metodologie di NLP e allo sviluppo di risorse linguistiche per contesti sia accademici sia applicativi."
+        highlights:
+          - "Supporto alla didattica e tutoraggio di studenti triennali e magistrali
+            nei corsi di linguistica computazionale e NLP."
+          - "Ricerca su pipeline di NLP e sugli aspetti pragmatici dei sistemi
+            linguistici guidati dall'intelligenza artificiale."
+          - "Stesura di progetti di finanziamento e gestione di iniziative di ricerca
+            del dipartimento."
+
+    Formazione:
+      - institution: "Università degli Studi di Salerno"
+        area: "Linguistica computazionale"
+        degree: "Dottorato"
+        start_date: "2016-10"
+        end_date: "2020-03"
+        location: "Salerno, Italia"
+        highlights:
+          - "Tesi: *Techniques, algorithms and electronic resources for Big Data for
+            Multi-Agent Specialized Systems*."
+
+      - institution: "Università Ca' Foscari Venezia"
+        area: "Scienze del linguaggio — Linguistica computazionale"
+        degree: "Laurea magistrale"
+        start_date: "2013-09"
+        end_date: "2016-03"
+        location: "Venezia, Italia"
+        highlights:
+          - "Votazione: 110/110 con lode."
+          - "Tesi: *Computational Analysis on a Corpus of Political Satire Articles*."
+
+      - institution: "Università degli Studi di Salerno"
+        area: "Lettere e Filosofia — Lettere moderne"
+        degree: "Laurea triennale"
+        start_date: "2009"
+        end_date: "2013"
+        location: "Salerno, Italia"
+        highlights:
+          - "Votazione: 110/110 con lode."
+
+      - institution: "I.T.C. Guido Dorso"
+        area: "Diploma di maturità"
+        degree: "Diploma"
+        end_date: "2006"
+        location: "Sarno, Italia"
+
+    Pubblicazioni:
+      - title: "xch-MIND: Multi-Agent Interpretive Knowledge Graph Augmentation over
+          Cultural Heritage Linked Data"
+        authors:
+          - "*Michele Stingo*"
+        publisher: "CEUR-WS  (5th TEXT2KG @ ESWC 2026)"
+        releaseDate: "2026"
+        url: "https://arxiv.org"
+
+      - title: "Mina: SeMantic vIrtual Assistant for Domain oNtology Based
+          Question-Answering"
+        authors:
+          - "N. Fiore"
+          - "G. Parente"
+          - "*M. Stingo*"
+          - "M. Polito"
+        publisher: "Springer International Publishing (Incos-2020)"
+        releaseDate: "2020"
+        url: "https://link.springer.com/chapter/10.1007/978-3-030-57796-4_18"
+
+      - title: "Assisted Contracts Validation through LCS problem resolution"
+        authors:
+          - "F. Martinucci"
+          - "*M. Stingo*"
+          - "M. Polito"
+        publisher: "Aracne Editrice - AIDAinformazioni"
+        releaseDate: "2020"
+        url: "https://www.aidainformazioni.it/index.php/aidainformazioni/article/view/27"
+
+      - title: "An Industrial Multi-Agent System (MAS) Platform"
+        authors:
+          - "A. Shashaj"
+          - "F. MAstrorilli"
+          - "*M. Stingo*"
+          - "M. Polito"
+        publisher: "Springer International Publishing (3PGCIC 2019)"
+        releaseDate: "2019"
+        url: "https://link.springer.com/chapter/10.1007/978-3-030-33509-0_20"
+
+      - title: "Automatic text preprocessing for intelligent dialog agents"
+        authors:
+          - "A. Maisto"
+          - "S. Pelosi"
+          - "M. Polito"
+          - "*M. Stingo*"
+        publisher: "Springer International Publishing (Waina-33)"
+        releaseDate: "2019"
+        url: "https://link.springer.com/chapter/10.1007/978-3-030-15035-8_78"
+
+      - title: "Multi-Word Expressions in spoken language: PoliSdict"
+        authors:
+          - "D. Trotta"
+          - "*M. Stingo*"
+          - "R. Guarasci"
+          - "A. Teresa"
+          - "A. Elia"
+        publisher: "CEUR-WS (CLiC-it 2018)"
+        releaseDate: "2018"
+        url: "https://aclanthology.org/2018.clicit-1.66.pdf"
+
+      - title: "OPI: Ontology of Italian products with DOP, IGP, STG denomination"
+        authors:
+          - "*M. Stingo*"
+        publisher: "Aracne Editrice - AIDAinformazioni Special Issue"
+        releaseDate: "2018"
+        url: "https://www.aidainformazioni.it/index.php/aidainformazioni/article/view/82"
+
+      - title: "A hybrid method for the extraction and classification of product
+          features from user-generated contents"
+        authors:
+          - "A. Maisto"
+          - "S. Pelosi"
+          - "*M. Stingo*"
+          - "R. Guarasci"
+        publisher: "ESE Salento University Publishing - Lingue e Linguaggi"
+        releaseDate: "2017"
+        url: "http://siba-ese.unisalento.it/index.php/linguelinguaggi/article/view/18352"
+
+      - title: "Detecting satire in italian political commentaries"
+        authors:
+          - "R. Delmonte"
+          - "*M. Stingo*"
+        publisher: "Springer International Publishing  (ICCI 2016)"
+        releaseDate: "2016"
+        url: "https://link.springer.com/chapter/10.1007/978-3-319-45246-3_7"
+
+      - title: "Annotating Satire in Italian Political Commentaries with Appraisal Theory"
+        authors:
+          - "*M. Stingo*"
+          - "R. Delmonte"
+        publisher: "Proceedings of IJCAI 2016"
+        releaseDate: "2016"
+        url: "https://iris.unive.it/bitstream/10278/3683343/1/Annotating_Satires.pdf"
+
+    Competenze:
+      - name: IA e NLP
+        level: Esperto
+        icon: fa-solid fa-hashtag
+        keywords: "LLM, LangChain, LangGraph, Ollama, Hugging Face Transformers, NLTK, Spacy, Gensim, sentiment analysis, POS tagging"
+
+      - name: Ingegneria della conoscenza
+        level: Esperto
+        icon: fa-solid fa-diagram-project
+        keywords: "Ontologie (OWL), database a grafo, Neo4j, Protégé, logiche descrittive, XML, JSON"
+
+      - name: Sviluppo software
+        level: Avanzato
+        icon: fa-solid fa-code
+        keywords: "Python, Prolog, Flutter, Angular, HTML5, CSS3, Bootstrap, Jupyter, Anaconda"
+
+      - name: Ricerca e gestione di progetti
+        level: Avanzato
+        icon: fa-solid fa-briefcase
+        keywords: "Progetti di finanziamento, disegno sperimentale, pianificazione della ricerca, coordinamento di ricerca e sviluppo"
+
+    Lingue:
+      - name: Italiano
+        summary: "Madrelingua"
+
+      - name: Inglese
+        summary: "Fluente"
+
+      - name: Francese
+        summary: "Conoscenza di base"
+
+      - name: Spagnolo
+        summary: "Conoscenza di base"
+
+# La lingua del PDF: nomi dei mesi, "presente", "Ultimo aggiornamento".
+# Deve stare qui dentro. RenderCV 2.8 accetta anche
+# settings.render_command.locale come percorso a un file esterno, ne verifica
+# perfino l'esistenza, e poi lo ignora: verificato rendendo lo stesso CV nei due
+# modi: con il file esterno le date uscivano "Sept 2023" e "present".
+locale:
+  language: italian
+
+# Il tema del PDF italiano. Deve stare qui per la stessa ragione del locale:
+# RenderCV 2.8 non applica i file esterni passati via settings.render_command.
+# L'unica differenza da assets/rendercv/design.yaml è la larghezza della colonna
+# dei titoli di studio: il valore predefinito di 1cm è tagliato su "PhD" e "MA",
+# e spezzava "Dottorato" e "Laurea magistrale" a metà parola.
+design:
+  theme: classic
+  page:
+    size: a4
+    show_footer: false
+    show_top_note: false
+  entries:
+    degree_width: 3.2cm

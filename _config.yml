@@ -2,12 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: PhD
-middle_name: M.
+title: blank # a sentinel, not an empty field: five templates test for the literal
+# string "blank" and fall back to first_name + last_name. Setting a real title here
+# would replace that name in the navbar brand and in the heading of the home page,
+# and would add the title to the citation block of every post as if it were a journal.
+first_name: Michele
+middle_name:
 last_name: Stingo
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Michele Stingo — research, notes and published work on language models, knowledge and intelligent systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -44,8 +48,9 @@ external_services:
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+# jekyll-feed is not in the plugin list: it builds one feed from every post, so
+# on a bilingual site each article arrives twice. _pages/feed.xml and
+# _pages/it/feed.xml render _includes/feed.liquid instead, one per language.
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -150,7 +155,15 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    # No standalone page per news item. Every entry is `inline: true`, so it is
+    # rendered inside the news page and nothing anywhere links to its own URL:
+    # the eight pages this used to build were unreachable by clicking and yet
+    # sat in the sitemap. Four of them also carried an address that contradicts
+    # the rest of the site -- /news/it/<slug>/ rather than /it/news/<slug>/,
+    # because a collection's output path follows the file's directory and no
+    # language rule reaches it. site.news is populated either way, which is all
+    # _includes/news.liquid reads.
+    output: false
   notes:
     output: true
 
@@ -175,23 +188,17 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
+  - CLAUDE.md
   - Dockerfile
   - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
   - _posts/_examples/
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - vendor
 
 keep_files:
@@ -204,7 +211,6 @@ plugins:
   - jekyll-archives-v2
   - jekyll-cache-bust
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook

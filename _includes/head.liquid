@@ -206,3 +206,33 @@
     crossorigin="anonymous"
   >
 {% endif %}
+
+<!-- Atom feed: one per language, so each reader gets the site in the language they are reading -->
+{%- if page.lang == 'it' %}{% assign feed_url = '/it/feed.xml' %}{% else %}{% assign feed_url = '/feed.xml' %}{% endif %}
+<link rel="alternate" type="application/atom+xml" href="{{ feed_url | relative_url }}" title="{{ site.data.lang[page.lang].blog.name }}">
+
+{%- comment -%}
+  hreflang tells a search engine that the Italian and English versions of a page
+  are the same page in two languages, not duplicate content competing with each
+  other. It is emitted only when the twin is really built: a page announcing an
+  alternate that returns 404 is worse than a page announcing none.
+
+  Each side names both itself and its twin, which is what the specification asks
+  for: the annotations have to be reciprocal or they are ignored. x-default goes
+  to English, as the address a reader with no language preference should land on
+  -- it is the site's root and the language the papers are written in.
+{%- endcomment -%}
+{% include twin.liquid %}
+{%- if twin_exists %}
+  {%- assign self_url = page.url | remove: 'index.html' -%}
+  {%- if page.lang == 'it' -%}
+    {%- assign it_url = self_url -%}
+    {%- assign en_url = twin_url -%}
+  {%- else -%}
+    {%- assign en_url = self_url -%}
+    {%- assign it_url = twin_url -%}
+  {%- endif %}
+  <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+  <link rel="alternate" hreflang="it" href="{{ it_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ en_url | absolute_url }}">
+{%- endif %}

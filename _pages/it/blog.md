@@ -3,6 +3,7 @@ layout: default
 lang: it
 permalink: /it/blog/
 title: blog
+description: "Appunti per i curiosi e per chi si distrae facilmente, su modelli linguistici e conoscenza."
 nav: true
 nav_order: 1
 # jekyll-paginate-v2 replaces this page with a generated object whose path is

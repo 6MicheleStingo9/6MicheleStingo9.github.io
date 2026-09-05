@@ -1,0 +1,30 @@
+{%- comment -%}
+  Finds the current page's twin in the other language and sets two variables:
+
+    twin_url     the mirrored address, e.g. /cv/ <-> /it/cv/
+    twin_exists  whether a page is actually built there
+
+  It lives in its own file because two places need the same answer -- the
+  language switch in header.liquid and the hreflang links in head.liquid -- and
+  a second copy of this rule would be free to drift from the first. That is not
+  hypothetical: the navbar used to pick the right page and then send the reader
+  to a hardcoded '/blog/', because the address was decided twice.
+
+  Both sides are normalised before comparing: jekyll-paginate-v2 reports URLs
+  that end in index.html, so /it/blog/index.html has to match /it/blog/.
+{%- endcomment -%}
+{%- assign here = page.url | remove: 'index.html' -%}
+{%- if page.lang == 'it' -%}
+  {%- assign twin_url = here | remove_first: '/it' -%}
+{%- else -%}
+  {%- assign twin_url = '/it' | append: here -%}
+{%- endif -%}
+{%- assign twin_exists = false -%}
+{%- assign everything = site.documents | concat: site.pages -%}
+{%- for doc in everything -%}
+  {%- assign doc_url = doc.url | remove: 'index.html' -%}
+  {%- if doc_url == twin_url -%}
+    {%- assign twin_exists = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}

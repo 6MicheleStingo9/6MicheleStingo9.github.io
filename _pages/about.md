@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='https://en.wikipedia.org/wiki/Know_thyself'>γνῶθι σεαυτόν</a>
+description: "Michele Stingo — research and notes on natural language processing, large language models and multi-agent systems, where language meets the representation of knowledge."
 
 profile:
   align: right

@@ -1,15 +1,17 @@
 ---
+# Le descrizioni dei repository arrivano da GitHub e restano in inglese:
+# sono i testi pubblicati là. Qui si traduce solo l'impalcatura di al-folio.
 layout: page
-permalink: /repositories/
+permalink: /it/repositories/
 title: repo
-description: "Explore my GitHub projects and contributions."
+description: "Esplora i miei progetti e contributi su GitHub."
 nav: true
 nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+## Utenti GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -37,7 +39,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+## Repository GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}

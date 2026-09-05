@@ -58,10 +58,21 @@ layout: default
 
       {% if render_rendercv and site.data.cv and site.data.cv.cv %}
         {% comment %} RenderCV format {% endcomment %}
-        {% assign cv = site.data.cv.cv %}
+        {%- comment -%}
+          The Italian CV is a second data file, not a translation layer: its
+          section names are Italian, so the dispatch below cannot compare them
+          with English literals any more and looks them up in _data/lang.
+        {%- endcomment -%}
+        {% if page.lang == 'it' and site.data.cv_it %}
+          {% assign cv = site.data.cv_it.cv %}
+        {% else %}
+          {% assign cv = site.data.cv.cv %}
+        {% endif %}
+        {% assign keys = site.data.lang[page.lang].cv.section_keys %}
 
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
+        {% assign cv_headline = cv.headline | default: cv.label %}
+        {% if cv.name or cv_headline or cv.location or cv.email or cv.phone or cv.website %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ site.data.lang[page.lang].cv.contact_information }}</h3>
             <table class="table table-cv table-sm table-borderless">
@@ -73,12 +84,12 @@ layout: default
                   <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
                 </tr>
               {% endif %}
-              {% if cv.label %}
+              {% if cv_headline %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold">
                     <b>{{ site.data.lang[page.lang].cv.professional_title }}</b>
                   </td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv_headline }}</td>
                 </tr>
               {% endif %}
               {% if cv.email %}
@@ -125,18 +136,26 @@ layout: default
         {% endif %}
 
         <!-- Summary -->
-        {% if cv.summary %}
+        {%- comment -%}
+          RenderCV v2 dropped the top-level `summary` field: a summary is now a
+          section holding one plain string, named in _data/lang so each language
+          can call it what it likes. cv.summary is still read for a CV that has
+          not been migrated.
+        {%- endcomment -%}
+        {% assign summary_section = cv.sections[keys.summary] %}
+        {% assign cv_summary = cv.summary | default: summary_section.first %}
+        {% if cv_summary %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ site.data.lang[page.lang].cv.professional_summary }}</h3>
-            <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            <p>{{ cv_summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           </div>
         {% endif %}
 
         <!-- RenderCV Sections - Merge Experience and Volunteer -->
         {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
         {% assign empty_array = '' | split: ',' %}
-        {% assign exp = cv.sections.Experience | default: empty_array %}
-        {% assign vol = cv.sections.Volunteer | default: empty_array %}
+        {% assign exp = cv.sections[keys.experience] | default: empty_array %}
+        {% assign vol = cv.sections[keys.volunteer] | default: empty_array %}
         {% assign combined_experience = exp | concat: vol %}
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
@@ -155,7 +174,7 @@ layout: default
           {% assign section_entries = section_pair[1] %}
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
-          {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+          {% if section_title == keys.experience or section_title == keys.volunteer or section_title == keys.summary %}
             {% continue %}
           {% endif %}
 
@@ -163,31 +182,31 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
-              {% if section_title == 'Education' %}
+              {% if section_title == keys.education %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
-              {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
+              {% elsif section_title == keys.awards or section_title == keys.awards_alt %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
-              {% elsif section_title == 'Publications' %}
+              {% elsif section_title == keys.publications %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
-              {% elsif section_title == 'Skills' %}
+              {% elsif section_title == keys.skills %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}
-              {% elsif section_title == 'Languages' %}
+              {% elsif section_title == keys.languages %}
                 {% assign entries = section_entries %}
                 {% include cv/languages.liquid %}
-              {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
+              {% elsif section_title == keys.interests or section_title == keys.interests_alt %}
                 {% assign entries = section_entries %}
                 {% include cv/interests.liquid %}
-              {% elsif section_title == 'Certificates' %}
+              {% elsif section_title == keys.certificates %}
                 {% assign entries = section_entries %}
                 {% include cv/certificates.liquid %}
-              {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
+              {% elsif section_title == keys.projects or section_title == keys.projects_alt %}
                 {% assign entries = section_entries %}
                 {% include cv/projects.liquid %}
-              {% elsif section_title == 'References' %}
+              {% elsif section_title == keys.references %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}
               {% else %}

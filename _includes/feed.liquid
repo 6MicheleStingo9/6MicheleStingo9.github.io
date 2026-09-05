@@ -1,0 +1,50 @@
+{%- comment -%}
+  One Atom feed per language. jekyll-feed builds a single feed from every post,
+  which on a bilingual site means each article arrives twice, once in each
+  language; it is removed from the plugin list and replaced by this include,
+  which feed.xml and it/feed.xml render with their own `lang` in the front
+  matter. The posts carry `lang` from the defaults in _config.yml, so filtering
+  on it is enough to keep the two apart.
+{%- endcomment -%}
+{%- assign strings = site.data.lang[page.lang] -%}
+{%- if page.lang == 'it' -%}
+  {%- assign home = '/it/' -%}
+{%- else -%}
+  {%- assign home = '/' -%}
+{%- endif -%}
+{%- assign posts = site.posts | where: 'lang', page.lang -%}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ page.lang }}">
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ home | absolute_url }}" rel="alternate" type="text/html" hreflang="{{ page.lang }}" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ page.url | absolute_url }}</id>
+  <title type="html">{{ strings.blog.name | xml_escape }}</title>
+  <subtitle>{{ strings.blog.description | xml_escape }}</subtitle>
+  <author>
+    <name>
+      {{- site.first_name }}
+      {{ site.last_name -}}
+    </name>
+  </author>
+  {%- for post in posts limit: 20 %}
+    <entry xml:lang="{{ page.lang }}">
+      <title type="html">{{ post.title | strip_html | normalize_whitespace | xml_escape }}</title>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+      <id>{{ post.id | absolute_url | xml_escape }}</id>
+      <author>
+        <name>
+          {{- site.first_name }}
+          {{ site.last_name -}}
+        </name>
+      </author>
+      {%- if post.description %}
+        <summary type="html">{{ post.description | strip_html | normalize_whitespace | xml_escape }}</summary>
+      {%- endif %}
+      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[{{ post.content | strip }}]]></content>
+    </entry>
+  {%- endfor %}
+</feed>

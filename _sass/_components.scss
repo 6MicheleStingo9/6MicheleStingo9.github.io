@@ -177,6 +177,14 @@ ul.task-list input[type="checkbox"] {
   .contact-icons {
     font-size: 4rem;
 
+    // The avatar closes the row and is not a link, so it is sized here rather
+    // than under `a` like the logos jekyll-socials renders.
+    > img {
+      width: 3.2rem;
+      height: 3.2rem;
+      margin-bottom: 1rem;
+    }
+
     a {
       img {
         width: 3.2rem;

@@ -3,6 +3,7 @@ layout: default
 lang: en
 permalink: /blog/
 title: blog
+description: "Notes for the curious and the easily distracted, on language models, knowledge and what gets lost."
 nav: true
 nav_order: 1
 # jekyll-paginate-v2 replaces this page with a generated object whose path is

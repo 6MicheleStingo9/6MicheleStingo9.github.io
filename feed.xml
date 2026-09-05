@@ -1,0 +1,19 @@
+---
+layout: none
+permalink: /feed.xml
+lang: en
+sitemap: false
+---
+{%- comment -%}
+  This file sits at the repository root, not in _pages/ beside its Italian twin,
+  and the asymmetry is forced. jekyll-feed is in the Gemfile's :jekyll_plugins
+  group, so bundler loads it whether or not it is listed in _config.yml, and it
+  generates its own /feed.xml -- one feed holding both languages -- unless it
+  finds a file already claiming that path. It looks for the source path
+  `feed.xml`, not the output URL, so a page under _pages/ does not stop it.
+  /it/feed.xml is not a path jekyll-feed knows, so the Italian twin is free to
+  live in _pages/it/ with the rest of the Italian pages.
+
+  Nothing may be emitted before the XML declaration, hence the stripping tags.
+{%- endcomment -%}
+{%- include feed.liquid -%}

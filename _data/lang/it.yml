@@ -20,6 +20,17 @@ related:
   intro: "Altri che potrebbero interessarti:"
   subscribe: "Iscriviti per essere avvisato dei prossimi articoli:"
 
+# La nota sotto le icone social della pagina «chi sono». Solo mail e LinkedIn
+# sono modi per raggiungermi; le altre icone sono profili e file, non caselle,
+# quindi la nota nomina le due e tace sul resto.
+about:
+  contact_note: "Mail o LinkedIn: su entrambe rispondo in fretta."
+  news: "novità"
+  latest_posts: "ultimi articoli"
+  selected_publications: "pubblicazioni scelte"
+  rss: "Oggetti Smarriti — feed RSS"
+  avatar_alt: "Michele Stingo"
+
 blog:
   name: Oggetti Smarriti
   description: appunti per i curiosi e per chi si distrae facilmente
@@ -46,6 +57,24 @@ common:
 # Intestazioni delle sezioni del CV. Attenzione: qui "references" sono le
 # referenze, parola diversa dai riferimenti bibliografici qui sopra.
 cv:
+  # I nomi delle sezioni del CV italiano, cioè le chiavi di _data/cv_it.yml.
+  # Il layout non può più confrontarle con letterali inglesi: le cerca qui.
+  section_keys:
+    summary: Profilo
+    experience: Esperienza
+    volunteer: Volontariato
+    education: Formazione
+    awards: Riconoscimenti
+    awards_alt: Premi e riconoscimenti
+    publications: Pubblicazioni
+    skills: Competenze
+    languages: Lingue
+    interests: Interessi
+    interests_alt: Interessi di ricerca
+    certificates: Certificazioni
+    projects: Progetti
+    projects_alt: Progetti open source
+    references: Referenze
   contact_information: Contatti
   name: Nome
   professional_title: Qualifica
@@ -54,6 +83,7 @@ cv:
   location: Sede
   website: Sito
   professional_summary: Profilo
+  present: Presente
   experience: Esperienza
   education: Formazione
   awards: Riconoscimenti
