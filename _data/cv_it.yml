@@ -115,9 +115,9 @@ cv:
           Cultural Heritage Linked Data"
         authors:
           - "*Michele Stingo*"
-        publisher: "CEUR-WS  (5th TEXT2KG @ ESWC 2026)"
+        publisher: "CEUR Workshop Proceedings, vol. 4233, pp. 65-83 — 5th TEXT2KG @ ESWC 2026"
         releaseDate: "2026"
-        url: "https://arxiv.org"
+        url: "https://ceur-ws.org/Vol-4233/Text2KG_Paper_ID_7.pdf"
 
       - title: "Mina: SeMantic vIrtual Assistant for Domain oNtology Based
           Question-Answering"
