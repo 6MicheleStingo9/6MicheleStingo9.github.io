@@ -15,5 +15,8 @@ node_modules/
 vendor
 # Local reference copies of the al-folio sample posts (not published, not versioned)
 _posts/_examples/
-# Local tooling
+# Local reference copies of al-folio's own documentation (not published, not versioned)
+_al-folio/
+# Local tooling: nothing about how the work is done is published
 .claude/
+CLAUDE.md

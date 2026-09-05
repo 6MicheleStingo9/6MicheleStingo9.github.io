@@ -10,10 +10,11 @@ exclude: |
     assets/js/distillpub/.*|
     assets/js/search/.*|
     assets/plotly/demo\.html|
-    lighthouse_results/.*|
     _sass/font-awesome/.*|
     _scripts/.*|
-    _data/citations\.yml
+    _data/citations\.yml|
+    _al-folio/.*|
+    CLAUDE\.md
   )$
 
 repos:
