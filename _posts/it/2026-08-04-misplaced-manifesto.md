@@ -16,7 +16,7 @@ toc:
   </div>
 </div>
 <div class="caption">
-  Gustave Doré, 1879 — <em>Sul carro di Elia, san Giovanni e Astolfo viaggiano verso la luna</em>, per l'<em>Orlando Furioso</em> dell'Ariosto. Inciso da Ch. Barbant.
+  Gustave Doré, 1879 — <em>Sul carro di Elia, san Giovanni e Astolfo viaggiano verso la luna</em>, per l'<em>Orlando furioso</em> dell'Ariosto. Inciso da Ch. Barbant.
 </div>
 
 ## Che cos'è
