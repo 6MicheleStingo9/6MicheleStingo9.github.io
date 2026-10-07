@@ -65,11 +65,33 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-invocazione",
+        },{id: "post-festina-lente",
+        
+          title: "Festina lente",
+        
+        description: "della fretta, del silenzio e dello scarto fra costruire e capire",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/it/blog/2026/festina-lente/";
+          
+        },
+      },{id: "post-festina-lente",
+        
+          title: "Festina lente",
+        
+        description: "of haste, silence, and the gap between building and understanding",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/festina-lente/";
+          
+        },
+      },{id: "post-invocazione",
         
           title: "Invocazione",
         
-        description: "Della doppiezza, delle soglie e dei segni che lasciamo",
+        description: "della doppiezza, delle soglie e dei segni che lasciamo",
         section: "Posts",
         handler: () => {
           
@@ -80,7 +102,7 @@ ninja.data = [{
         
           title: "Invocation",
         
-        description: "Of doubleness, thresholds and the marks we leave",
+        description: "of doubleness, thresholds and the marks we leave",
         section: "Posts",
         handler: () => {
           
